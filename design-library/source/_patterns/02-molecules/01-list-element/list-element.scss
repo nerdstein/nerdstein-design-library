@@ -1,9 +1,14 @@
 .list-element {
-  .list-element-image {
-
-  }
+  margin-top: 15px;
+  margin-bottom: 15px;
 
   .list-element-body {
-
+    .list-element-image {
+      float: left;
+      clear: left;
+      margin: 15px;
+      margin-left: 0px;
+      margin-top: 0px;
+    }
   }
 }
