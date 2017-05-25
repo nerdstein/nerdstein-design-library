@@ -1,0 +1,11 @@
+<div class="list-element">
+    {% if image_url %}
+    <div class="list-element-image">
+        {% include "atoms-list-image" %}
+    </div>
+    {% endif %}
+    <div class="list-element-body">
+    {% include "atoms-list-title" %}
+    {% include "atoms-list-body" %}
+    </div>
+</div>
