@@ -1,1 +1,1 @@
-{ "listeners": [ ] }
+{"listeners":["\\PatternLab\\TwigNamespaces\\PatternLabListener","\\aleksip\\DataTransformPlugin\\PatternLabListener"]}

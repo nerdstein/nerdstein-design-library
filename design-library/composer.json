@@ -24,12 +24,19 @@
 		}
 	},
 	"require": {
-		"php": ">=5.4",
-		"pattern-lab/core": "^2.0.0",
+		"php": ">=5.5.9",
+		"pattern-lab/core": "^2.7.0",
 		"pattern-lab/patternengine-twig": "^2.0.0",
-		"pattern-lab/styleguidekit-twig-default": "^3.0.0"
+		"pattern-lab/styleguidekit-twig-default": "^3.0.0",
+		"pattern-lab/drupal-twig-components": "^2.0.0",
+		"aleksip/plugin-data-transform": "^1.1",
+		"evanlovely/plugin-twig-namespaces": "^1.0"
 	},
 	"scripts": {
+		"server": "php core/console --server",
+		"generate": "php core/console --generate",
+		"watch": "php core/console --watch",
+		"start": "php core/console --server  --quiet & php core/console --watch",
 		"post-install-cmd": [
 			"PatternLab\\Installer::postInstallCmd"
 		],
@@ -55,7 +62,10 @@
 		"patternlab": {
 			"starterKitSuggestions": [
 				"pattern-lab/starterkit-twig-base",
-				"pattern-lab/starterkit-twig-demo"
+				"pattern-lab/starterkit-twig-demo",
+				"pattern-lab/starterkit-twig-drupal-minimal",
+				"aleksip/starterkit-shila-drupal-theme",
+				"forumone/starterkit-twig-drupal-gesso"
 			]
 		}
 	}

@@ -1,5 +1,5 @@
 v: 2.6.0
-overrideConfig: q
+overrideConfig: false
 ie:
     - DS_Store
     - less
@@ -29,8 +29,8 @@ styleguideKitPath: vendor/pattern-lab/styleguidekit-twig-default
 lineageMatch: '{%([ ]+)?include( |\()[&quot;\&#039;]([A-Za-z0-9-_]+)[&quot;\&#039;](\))?(.*)%}'
 lineageMatchKey: 3
 patternExtension: twig
-twigDebug: false
-twigAutoescape: html
+twigDebug: true
+twigAutoescape: false
 twigDefaultDateFormat: ''
 twigDefaultIntervalFormat: ''
 twigMacroExt: macro.twig
@@ -38,3 +38,20 @@ twigFilterExt: filter.php
 twigFunctionExt: function.php
 twigTagExt: tag.php
 twigTestExt: test.php
+plugins:
+  twigNamespaces:
+    enabled: true
+    roots: {  }
+    namespaces:
+      atoms:
+        paths:
+          - source/_patterns/01-atoms
+      molecules:
+        paths:
+          - source/_patterns/02-molecules
+      organisms:
+        paths:
+          - source/_patterns/03-organisms
+      pages:
+        paths:
+          - source/_patterns/04-pages

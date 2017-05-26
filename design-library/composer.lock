@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8af9120786d6781ebb176d6aa67e0a02",
+    "content-hash": "e07aff3d5e396a01e662189cbd036cbf",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -67,6 +67,53 @@
                 "zip"
             ],
             "time": "2016-02-15T22:46:40+00:00"
+        },
+        {
+            "name": "aleksip/plugin-data-transform",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aleksip/plugin-data-transform.git",
+                "reference": "89b69e90e64923481841b515f3364fcff125f809"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aleksip/plugin-data-transform/zipball/89b69e90e64923481841b515f3364fcff125f809",
+                "reference": "89b69e90e64923481841b515f3364fcff125f809",
+                "shasum": ""
+            },
+            "require": {
+                "pattern-lab/core": "^2.6.3",
+                "pattern-lab/patternengine-twig": "^2.0.0",
+                "php": ">=5.5.9"
+            },
+            "type": "patternlab-plugin",
+            "autoload": {
+                "psr-0": {
+                    "aleksip\\DataTransformPlugin\\": "src/",
+                    "Drupal\\Component\\Render\\": "src/",
+                    "Drupal\\Component\\Utility\\": "src/",
+                    "Drupal\\Core\\": "src/",
+                    "Drupal\\Core\\Template\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Aleksi Peebles"
+                }
+            ],
+            "description": "Data Transform Plugin for Pattern Lab PHP",
+            "homepage": "https://github.com/aleksip/plugin-data-transform",
+            "keywords": [
+                "drupal",
+                "pattern lab",
+                "plugin"
+            ],
+            "time": "2017-01-02T14:14:09+00:00"
         },
         {
             "name": "doctrine/collections",
@@ -133,6 +180,60 @@
                 "iterator"
             ],
             "time": "2015-04-14T22:21:58+00:00"
+        },
+        {
+            "name": "evanlovely/plugin-twig-namespaces",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/EvanLovely/plugin-twig-namespaces.git",
+                "reference": "d12f8d6ff2624ea81beccb134b315587350a6fca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/EvanLovely/plugin-twig-namespaces/zipball/d12f8d6ff2624ea81beccb134b315587350a6fca",
+                "reference": "d12f8d6ff2624ea81beccb134b315587350a6fca",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "patternlab-plugin",
+            "extra": {
+                "patternlab": {
+                    "config": {
+                        "plugins": {
+                            "twigNamespaces": {
+                                "enabled": false,
+                                "roots": []
+                            }
+                        }
+                    }
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "PatternLab\\TwigNamespaces": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Evan Lovely",
+                    "homepage": "http://evanlovely.com",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "Twig Namespaces for Pattern Lab",
+            "homepage": "http://patternlab.io",
+            "keywords": [
+                "pattern lab",
+                "twig"
+            ],
+            "time": "2016-10-12T16:53:30+00:00"
         },
         {
             "name": "kevinlebrun/colors.php",
@@ -296,6 +397,62 @@
                 "styleguide"
             ],
             "time": "2016-07-22T03:00:05+00:00"
+        },
+        {
+            "name": "pattern-lab/drupal-twig-components",
+            "version": "v2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pattern-lab/plugin-drupal-twig-components.git",
+                "reference": "3f4e2ad80051ac66950c97e6a07e08376b001614"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pattern-lab/plugin-drupal-twig-components/zipball/3f4e2ad80051ac66950c97e6a07e08376b001614",
+                "reference": "3f4e2ad80051ac66950c97e6a07e08376b001614",
+                "shasum": ""
+            },
+            "type": "patternlab-plugin",
+            "extra": {
+                "patternlab": {
+                    "dist": {
+                        "sourceDir": [
+                            {
+                                "filters/*": "_twig-components/filters/*"
+                            },
+                            {
+                                "functions/*": "_twig-components/functions/*"
+                            },
+                            {
+                                "tags/*": "_twig-components/tags/*"
+                            },
+                            {
+                                "tests/*": "_twig-components/tests/*"
+                            }
+                        ]
+                    }
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Olsen",
+                    "email": "dmolsen@gmail.com",
+                    "homepage": "http://dmolsen.com",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "A collection of Twig components to be used with Drupal- and Twig-related StarterKits.",
+            "homepage": "http://patternlab.io",
+            "keywords": [
+                "drupal",
+                "pattern lab",
+                "twig"
+            ],
+            "time": "2016-09-07T19:28:17+00:00"
         },
         {
             "name": "pattern-lab/patternengine-twig",
@@ -884,7 +1041,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.4"
+        "php": ">=5.5.9"
     },
     "platform-dev": []
 }
