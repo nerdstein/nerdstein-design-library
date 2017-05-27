@@ -51,6 +51,7 @@ The markup/CSS is rather irrelevant as long as the responsive visual representat
 
 Steps are run from the `design-library` directory on your local machine
 
+* `composer install`
 * `npm install --global gulp-cli`
 * `npm install gulp`
 * `npm install`
