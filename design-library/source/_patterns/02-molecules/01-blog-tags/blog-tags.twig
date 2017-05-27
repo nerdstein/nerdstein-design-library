@@ -1,0 +1,5 @@
+<div class="blog-tags">
+{% for key,value in tag_list %}
+    {% include "@atoms/blog-tag.twig" with {"tag_name": value.tag_name} %}
+{% endfor %}
+</div>

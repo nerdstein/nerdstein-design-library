@@ -1,4 +1,5 @@
 <div class="list-element">
+    {% include "@molecules/blog-tags.twig" with {"tag_list": tag_list} %}
     <div class="list-element-body">
         {% if image_url %}
         <div class="list-element-image">
