@@ -53,6 +53,7 @@ plugins:
           - source/_patterns/01-atoms/02-list-body
           - source/_patterns/01-atoms/03-list-image
           - source/_patterns/01-atoms/04-blog-tag
+          - source/_patterns/01-atoms/05-list-posted-on
       molecules:
         paths:
           - source/_patterns/02-molecules/01-blog-tags
