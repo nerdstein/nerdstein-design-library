@@ -1,0 +1,15 @@
+.section-content {
+  background-color: #fff;
+  border: 2px solid #EDEDED;
+  margin-bottom: 30px;
+  font-size: 16px;
+  .ul {
+    .li {
+      border-bottom: 1px solid #ccc;
+    }
+
+    .li:last-child {
+      border-bottom: none;
+    }
+  }
+}
