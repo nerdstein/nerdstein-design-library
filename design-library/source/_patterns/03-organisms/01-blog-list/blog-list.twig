@@ -1,0 +1,11 @@
+<div class="blog-list">
+    {% for key,value in blog_list %}
+        {% include "@molecules/list-element.twig" with {
+            "title": value.title,
+            "link_url": value.link_url,
+            "body": value.body,
+            "tag_list": value.tag_list,
+            "posted_date": value.posted_date
+        } %}
+    {% endfor %}
+</div>

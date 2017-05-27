@@ -58,9 +58,9 @@ plugins:
         paths:
           - source/_patterns/02-molecules/01-blog-tags
           - source/_patterns/02-molecules/02-list-element
-      #organisms:
-        #paths:
-          #- source/_patterns/03-organisms
+      organisms:
+        paths:
+          - source/_patterns/03-organisms/01-blog-list
       #pages:
         #paths:
           #- source/_patterns/04-pages

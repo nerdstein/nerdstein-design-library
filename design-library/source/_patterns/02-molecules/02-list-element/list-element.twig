@@ -6,7 +6,7 @@
             {% include "@atoms/list-image.twig" %}
         </div>
         {% endif %}
-        {% include "@atoms/list-title.twig"  %}
+        {% include "@atoms/list-title.twig" with {"title": title}  %}
         {% include "@atoms/list-posted-on.twig" %}
         {% include "@atoms/list-body.twig" %}
     </div>
