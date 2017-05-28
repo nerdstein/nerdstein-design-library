@@ -1,20 +1,19 @@
-html,
 body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
   font-family: 'PT Sans';
   font-size: 18px;
   background-color: #f8f8f8;
   color: #4c4c4c;
-}
 
-a {
-  color: #0C0D0D;
+  a {
+    color: #0C0D0D;
 
-  *:hover {
-    color: #424242;
-  }
+    *:hover {
+      color: #424242;
+    }
 
-  *:visited {
-    text-decoration: none;
+    *:visited {
+      text-decoration: none;
+    }
   }
 }
