@@ -6,6 +6,7 @@ var gulp      = require('gulp'),
 var concat = require('gulp-concat');
 var minify = require('gulp-minify-css');
 var merge = require('merge-stream');
+var shell = require('gulp-shell');
 
 // Directories for storing sass and css files
 var sassFiles = ['source/_patterns/**/*.scss','source/scss/*.scss'];
@@ -62,6 +63,13 @@ gulp.task('sass', function() {
         .pipe(gulp.dest(cssDir));
 });
 
+// Start the pattern lab server and watch for changes
+gulp.task('patternlab', function () {
+    return gulp.src('', {read: false})
+        .pipe(shell([
+            'php core/console --server --with-watch'
+        ]));
+});
 
 // Keep an eye on Sass files for changes and only lint changed files
 // This prevents Sass error reporting from contributes Sass files from other projects
@@ -82,4 +90,4 @@ function lintFile(file) {
         .pipe(sassLint.format());
 }
 
-gulp.task('default', ['sass', 'watch']);
+gulp.task('default', ['patternlab', 'sass', 'watch']);
