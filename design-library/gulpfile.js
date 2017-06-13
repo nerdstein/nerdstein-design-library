@@ -71,6 +71,14 @@ gulp.task('patternlab', function () {
         ]));
 });
 
+// Start the pattern lab server and watch for changes
+gulp.task('export-patternlab', function () {
+    return gulp.src('', {read: false})
+        .pipe(shell([
+            'php core/console --export'
+        ]));
+});
+
 // Keep an eye on Sass files for changes and only lint changed files
 // This prevents Sass error reporting from contributes Sass files from other projects
 // Also speeds things up.
@@ -90,4 +98,4 @@ function lintFile(file) {
         .pipe(sassLint.format());
 }
 
-gulp.task('default', ['patternlab', 'sass', 'watch']);
+gulp.task('default', ['export-patternlab', 'patternlab', 'sass', 'watch']);

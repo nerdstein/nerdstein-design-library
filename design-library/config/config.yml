@@ -15,7 +15,7 @@ patternStates:
     - complete
 styleGuideExcludes: ''
 cacheBusterOn: 'true'
-exportDir: export
+exportDir: ../html
 publicDir: public
 sourceDir: source
 defaultPattern: all
