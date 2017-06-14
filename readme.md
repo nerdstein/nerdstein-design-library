@@ -89,5 +89,8 @@ TODO - Capture any best practices learned about Twig usage
 Steps are run from the `design-library` directory on your local machine.
 
 * `gulp sass` - compiles all SCSS into CSS
-* `php core/console --generate` - compiles Pattern Lab assets (please run Gulp separately)
-* `php core/console --server` - loads built-in Pattern Lab server
+* `php core/console --server --with-watch` - loads built-in Pattern Lab server, compiles Pattern Lab assets as needed
+
+Alternatively, all of these tasks can be run automatically using the default gulp task.
+ 
+* `gulp` - Start Pattern Lab server and watch for changes. Watch assets and recompile on changes.
