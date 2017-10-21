@@ -1,0 +1,40 @@
+
+$base-font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+$heading-font-family: "Merriweather", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+
+$base-font-color: #222;
+
+$base-color: #112e51;
+$base-color--light: #0071bc;
+$base-color--medium: #205493;
+
+$link-color: $base-color--light;
+$link-color--hover: $base-color--medium;
+
+$link-color: $base-color--light;
+$link-color--hover: $base-color--medium;
+
+@mixin font-profile--base {
+  font-family: $base-font-family;
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+@mixin font-profile--heading {
+  font-family: $heading-font-family;
+  line-height: 1.3;
+  font-weight: bold;
+}
+
+@mixin button-profile {
+  @include font-profile--heading;
+  display: inline-block;
+  line-height: 1.2;
+  color: #fff;
+  background-color: $link-color;
+  padding: .5em .75em;
+  &:hover {
+    background-color: $link-color--hover;
+  }
+}
