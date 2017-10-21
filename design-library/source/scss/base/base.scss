@@ -1,0 +1,43 @@
+@include '_patterns/*/**';
+
+$base-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$heading-font-family: $base-font-family;
+
+$base-font-color: #444;
+
+$key-color: lighten(maroon, 20%);
+$link-color: darken($key-color, 10%);
+$link-color--hover: $key-color;
+
+html {
+  font-size: 16px;
+}
+
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+  font-family: $base-font-family;
+  font-size: 1em;
+  line-height: 1.5;
+  background-color: #fff;
+  color: $base-font-color;
+
+  a {
+    color: $link-color;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      color: $link-color--hover;
+    }
+
+    &:visited {
+      text-decoration: none;
+    }
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0 0 .5em 0;
+  line-height: 1.25;
+}

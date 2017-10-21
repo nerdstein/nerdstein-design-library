@@ -3,3 +3,4 @@ export/*
 public/*
 source/styleguide/*
 vendor/*
+debug.log
