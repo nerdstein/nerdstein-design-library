@@ -1,0 +1,6 @@
+.posted-on {
+  color: lighten(desaturate($base-color--light, 75%), 25%);
+  font-style: italic;
+  margin: 0 0 1em 0;
+  line-height: 1;
+}

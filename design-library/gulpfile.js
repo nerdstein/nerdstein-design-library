@@ -7,9 +7,12 @@ var concat = require('gulp-concat');
 var minify = require('gulp-minify-css');
 var merge = require('merge-stream');
 var shell = require('gulp-shell');
+var sassGlob = require('gulp-sass-glob');
 
 // Directories for storing sass and css files
-var sassFiles = ['source/_patterns/**/*.scss','source/scss/*.scss'];
+// var sassFiles = ['source/_patterns/**/*.scss','source/scss/scss.scss'];
+var sassFiles = ['source/**/*.scss'];
+
 var cssDir    = 'source/css';
 var jsDir     = 'source/js/*.js';
 
@@ -39,6 +42,7 @@ gulp.task('sass', function() {
     return gulp.src(sassFiles)
     // Initialize sourcemaps
         //.pipe(sourcemaps.init())
+        .pipe(sassGlob())
         // Run Sass
         .pipe(sass({
             outputStyle: 'compressed',
