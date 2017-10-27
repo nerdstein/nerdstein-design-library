@@ -12,14 +12,13 @@ body {
   color: $base-font-color;
 }
 
-
 a {
   color: $link-color;
   text-decoration: none;
 
   &:hover {
-    text-decoration: underline;
     color: $link-color--hover;
+    text-decoration: underline;
   }
 
   &:visited {
@@ -30,5 +29,24 @@ a {
 h1, h2, h3, h4 {
   @include font-profile--heading;
   padding: 0;
+  line-height: 1.2;
   margin: 0 0 .5em 0;
 }
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.67em;
+}
+
+h3 {
+  font-size: 1.33em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+
