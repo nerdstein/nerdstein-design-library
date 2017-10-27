@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 16px;
 }
@@ -10,8 +14,9 @@ body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
   background-color: #fff;
   color: $base-font-color;
+  padding: 0;
+  margin: 0;
 }
-
 
 a {
   color: $link-color;
@@ -31,4 +36,20 @@ h1, h2, h3, h4 {
   @include font-profile--heading;
   padding: 0;
   margin: 0 0 .5em 0;
+}
+
+h1 {
+  font-size: 1.75em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+h4 {
+  font-size: 1em;
 }

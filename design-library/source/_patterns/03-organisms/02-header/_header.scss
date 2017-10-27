@@ -1,0 +1,40 @@
+#site-header {
+  background-color: #eee;
+  border: 0px solid #aaa;
+  padding: 1.5vw;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1em;
+  grid-template-areas:
+      "a a a b b b";
+  grid-template-rows: 1fr;
+
+  > .grid-cell {
+    border: 0px solid #aaa;
+    padding: 0em;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.logo--wrapper {
+  width: 10vw;
+  height: 10vw;
+}
+
+.grid-cell--logo {
+  grid-area: a;
+  justify-content: left;
+}
+
+.grid-cell--social-icons {
+  grid-area: b;
+  justify-content: right;
+  .social_media--list {
+    margin-left: auto;
+    .social_media--item {
+      height: 5vw;
+      width: 5vw;
+    }
+  }
+}
