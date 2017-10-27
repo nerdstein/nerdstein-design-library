@@ -1,5 +1,9 @@
 h3.list-title {
-  a:hover {
-    text-decoration: none;
+  font-size: 2em;
+  a {
+    color: black;
+    &:hover {
+      color: $link-color--hover;
+    }
   }
 }

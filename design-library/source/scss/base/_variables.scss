@@ -1,18 +1,22 @@
 
-$base-font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-$heading-font-family: "Merriweather", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+$base-font-family: "PT Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+$heading-font-family: $base-font-family;
 
-$base-font-color: #222;
+$base-font-color: #4c4c4c;
 
-$base-color: #112e51;
-$base-color--light: #0071bc;
-$base-color--medium: #205493;
+$key-color-1--base: #ed6300;
+$key-color-1--lighter: lighten($key-color-1--base, 30%);
+$key-color-1--darker: darken($key-color-1--base, 30%);
 
-$link-color: $base-color--light;
-$link-color--hover: $base-color--medium;
+$key-color-2--base: #0fa620;
+$key-color-2--lighter: lighten($key-color-2--base, 30%);
+$key-color-2--darker: darken($key-color-2--base, 30%);
 
-$link-color: $base-color--light;
-$link-color--hover: $base-color--medium;
+$link-color: $key-color-1--base;
+$link-color--hover: $key-color-2--base;
+
+$light-gray: #EDEDED;
+$medium-gray: rgb(150, 150, 150);
 
 @mixin font-profile--base {
   font-family: $base-font-family;
@@ -23,14 +27,14 @@ $link-color--hover: $base-color--medium;
 
 @mixin font-profile--heading {
   font-family: $heading-font-family;
-  line-height: 1.25;
+  line-height: 1.3;
   font-weight: bold;
 }
 
 @mixin button-profile {
   @include font-profile--heading;
   display: inline-block;
-  line-height: 1.2;
+  line-height: 1;
   color: #fff;
   background-color: $link-color;
   padding: .5em .75em;
