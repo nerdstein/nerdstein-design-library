@@ -1,0 +1,49 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  @include font-profile--base;
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+  background-color: #fff;
+  color: $base-font-color;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $link-color--hover;
+    text-decoration: underline;
+  }
+
+  &:visited {
+    text-decoration: none;
+  }
+}
+
+h1, h2, h3, h4 {
+  @include font-profile--heading;
+  padding: 0;
+  line-height: 1.2;
+  margin: 0 0 .5em 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.67em;
+}
+
+h3 {
+  font-size: 1.33em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+

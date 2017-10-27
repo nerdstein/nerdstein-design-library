@@ -1,0 +1,9 @@
+<ul class="social_media--list">
+  {% for social_media__item in social_media %}
+    <li class="social_media--item">
+      <a href="{{ social_media__item.link }}" title="{{ social_media__item.message }}" class="social_media--icon {{ social_media__item.name }}">
+        {{ social_media__item.message }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>

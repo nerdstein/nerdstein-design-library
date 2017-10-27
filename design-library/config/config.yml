@@ -56,6 +56,8 @@ plugins:
           - source/_patterns/01-atoms/05-list-posted-on
           - source/_patterns/01-atoms/06-section-heading
           - source/_patterns/01-atoms/07-section-content
+          - source/_patterns/01-atoms/08-logo
+          - source/_patterns/01-atoms/09-social-icons
       molecules:
         paths:
           - source/_patterns/02-molecules/01-blog-tags
@@ -64,6 +66,7 @@ plugins:
       organisms:
         paths:
           - source/_patterns/03-organisms/01-blog-list
+          - source/_patterns/03-organisms/02-header
       #pages:
         #paths:
           #- source/_patterns/04-pages
