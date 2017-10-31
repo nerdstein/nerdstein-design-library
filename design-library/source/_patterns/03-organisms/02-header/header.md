@@ -1,4 +1,6 @@
----
-title: Site header
----
-This is the global header for the site.
+# Organism: Site Header
+
+*Depends on*
+
+* Atom: Logo
+* Molecule: Social Icons

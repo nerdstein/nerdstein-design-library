@@ -1,4 +1,4 @@
-# Atom: Logo
+# Atom: Social Icons
 
 *Belongs to*
 

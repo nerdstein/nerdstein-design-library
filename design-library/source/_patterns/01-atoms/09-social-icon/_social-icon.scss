@@ -1,0 +1,25 @@
+li.social_media--item {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  height: 2em;
+  width: 2em;
+}
+
+a.social_media--icon {
+  display: block;
+  text-indent: -9999px;
+  height: inherit;
+  width: inherit;
+  background-repeat: no-repeat;
+  background-size: contain;
+  &.Twitter {
+    background-image: url('../images/social_media_icons/social_twitter.png');
+  }
+  &.Facebook {
+    background-image: url('../images/social_media_icons/social_facebook.png');
+  }
+  &.LinkedIn {
+    background-image: url('../images/social_media_icons/social_linkedin.png');
+  }
+}

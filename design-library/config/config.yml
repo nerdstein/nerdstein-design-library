@@ -57,12 +57,13 @@ plugins:
           - source/_patterns/01-atoms/06-section-heading
           - source/_patterns/01-atoms/07-section-content
           - source/_patterns/01-atoms/08-logo
-          - source/_patterns/01-atoms/09-social-icons
+          - source/_patterns/01-atoms/09-social-icon
       molecules:
         paths:
           - source/_patterns/02-molecules/01-blog-tags
           - source/_patterns/02-molecules/02-list-element
           - source/_patterns/02-molecules/03-section
+          - source/_patterns/02-molecules/04-social-icons
       organisms:
         paths:
           - source/_patterns/03-organisms/01-blog-list
