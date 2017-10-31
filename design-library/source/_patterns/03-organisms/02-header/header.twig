@@ -1,0 +1,14 @@
+<header id="site-header" class="grid">
+  <div class="grid-cell grid-cell--logo">
+    {% include "@atoms/logo.twig" with {
+      "image_url":image_url,
+      "image_alt":image_alt,
+      "image_link":image_link
+    } %}
+  </div>
+  <div class="grid-cell grid-cell--social-icons">
+    {% include "@molecules/social-icons.twig" with {
+      "social_media":social_media
+    }  %}
+  </div>
+</header>

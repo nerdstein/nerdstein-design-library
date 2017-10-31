@@ -1,0 +1,25 @@
+{
+  "image_url": "/images/nerdstein_11.png",
+  "image_alt": "Nerdstein Logo",
+  "image_link": "#",
+  "social_media": [
+    {
+      "name":"Twitter",
+      "message":"Follow us on Twitter",
+      "image":"/images/social_media_icons/social_twitter.png",
+      "link":"http://www.twitter.com"
+    },
+    {
+      "name":"Facebook",
+      "message":"Like us on Facebook",
+      "image":"/images/social_media_icons/social_facebook.png",
+      "link":"http://www.facebook.com"
+    },
+    {
+      "name":"LinkedIn",
+      "message":"Follow us on LinkedIn",
+      "image":"/images/social_media_icons/social_linkedin.png",
+      "link":"http://www.linkedIn.com"
+    }
+  ]
+}
