@@ -1,0 +1,30 @@
+<div class="page-wrapper">
+  <header class="section section-header">
+    {% include "@organisms/header.twig" with {
+    "image_url":image_url,
+    "image_alt":image_alt,
+    "image_link":image_link,
+    "social_media":social_media
+    } %}
+  </header>
+  <div class="section section-main">
+    <div class="content">
+      {% include "@organisms/blog-list.twig" with {
+      "blog_list":blog_list
+      } %}
+    </div>
+    <div class="sidebar">
+      {% for section in sections %}
+        {% include "@molecules/section.twig" with {
+        "heading":section.heading,
+        "content":section.content
+        } %}
+      {% endfor %}
+    </div>
+  </div>
+  <footer class="section section-footer">
+
+  </footer>
+</div>
+
+
