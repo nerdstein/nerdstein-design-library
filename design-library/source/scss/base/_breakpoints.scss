@@ -1,0 +1,36 @@
+/**
+ * Partial for adding standard breakpoint variables
+ */
+// @import "breakpoint";
+// Breakpoint control variables
+// $breakpoint-to-ems: true;
+
+$xxs: 0px;
+$xs: 320px;
+$sm: 544px;
+$md: 768px;
+$lg: 960px;
+$xl: 1200px;
+
+//Breakpoint variables
+$xxs-only: $xxs ($xs - 1);
+$xxs-up: $xxs;
+
+$xs-only: $xs ($sm - 1);
+$xs-up: $xs;
+$xs-down: 0px $xs;
+
+$sm-only: $sm ($md - 1);
+$sm-up: $sm;
+$sm-down: 0px ($md - 1);
+
+$md-only: $md ($lg - 1);
+$md-up: $md;
+$md-down: 0px ($lg - 1);
+
+$lg-only: $lg ($xl - 1);
+$lg-up: $lg;
+$lg-down: 0px ($xl - 1);
+
+$xl-only: $xl;
+$xl-up: $xl;
