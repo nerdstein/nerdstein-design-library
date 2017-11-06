@@ -1,5 +1,8 @@
 #site-footer {
-  background-color: #eee;
-  border: 0px solid #aaa;
+  background-color: $dark-gray;
+  border-top: 2px solid $key-color-1--base;
   padding: 1.5vw;
+  color: $light-gray;
+  padding: 2em 3em;
+  font-size: 1.25em;
 }
