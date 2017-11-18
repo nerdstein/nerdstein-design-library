@@ -1,5 +1,5 @@
 
-.page-wrapper {
+#page-wrapper {
   width: 100%;
   padding: 0;
   margin: 0;
@@ -15,7 +15,7 @@
 
 }
 
-.section-main {
+#main-wrapper {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;

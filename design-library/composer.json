@@ -30,7 +30,8 @@
 		"pattern-lab/styleguidekit-twig-default": "^3.0.0",
 		"pattern-lab/drupal-twig-components": "^2.0.0",
 		"aleksip/plugin-data-transform": "^1.1",
-		"evanlovely/plugin-twig-namespaces": "^1.0"
+		"evanlovely/plugin-twig-namespaces": "^1.0",
+		"pattern-lab/styleguidekit-assets-default": "^3.5"
 	},
 	"scripts": {
 		"server": "php core/console --server",

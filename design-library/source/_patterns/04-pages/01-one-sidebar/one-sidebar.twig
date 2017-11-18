@@ -1,13 +1,11 @@
-<div class="page-wrapper">
-  <header class="section section-header">
+<div id="page-wrapper">
     {% include "@organisms/header.twig" with {
     "image_url":image_url,
     "image_alt":image_alt,
     "image_link":image_link,
     "social_media":social_media
     } %}
-  </header>
-  <div class="section section-main">
+  <div id="main-wrapper" class="section">
     <div class="content">
       {% include "@organisms/blog-list.twig" with {
       "blog_list":blog_list
