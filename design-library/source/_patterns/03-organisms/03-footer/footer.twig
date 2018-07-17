@@ -1,5 +1,11 @@
-<footer id="site-footer">
-    {% include "@atoms/footer-text.twig" with {
-      "content":content
+<div class="footer-image-list">
+    {% include "@molecules/05-footer-list/footer-image-list.twig" with {
+      "footer_images":footer_images
     }  %}
-</footer>
+</div>
+
+<div class="site-footer">
+    {% include "@atoms/footer-text.twig"  with {
+      "content":content
+    } %}
+</div>

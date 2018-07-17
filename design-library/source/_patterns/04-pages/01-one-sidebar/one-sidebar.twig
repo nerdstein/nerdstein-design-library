@@ -1,28 +1,31 @@
-<div id="page-wrapper">
-    {% include "@organisms/header.twig" with {
-    "image_url":image_url,
-    "image_alt":image_alt,
-    "image_link":image_link,
-    "social_media":social_media
-    } %}
-  <div id="main-wrapper" class="section">
+<div id="page-wrapper" class="page-wrapper">
+  <div id="main-wrapper" class="main-wrapper">
+    <div class="sidebar">
+      {% include "@organisms/header.twig" with {
+      "image_url":image_url,
+      "image_alt":image_alt,
+      "image_link":image_link,
+      "section_menulist": section_menulist,
+      "social_media":social_media,
+      "heading":heading,
+      "section_list":section_list
+      } %}
+    </div>
     <div class="content">
+      <div class="section">
       {% include "@organisms/blog-list.twig" with {
       "blog_list":blog_list
       } %}
+      </div>
+      <footer class="section section-footer">
+      {% include "@organisms/footer.twig" with {
+      "content":footer_text,
+      "footer_images":footer_images
+      } %}
+      </footer>
     </div>
-    <div class="sidebar">
-      {% for section in sections %}
-        {% include "@molecules/section.twig" with {
-        "heading":section.heading,
-        "content":section.content
-        } %}
-      {% endfor %}
-    </div>
+    
+    
   </div>
-  <footer class="section section-footer">
-    {% include "@organisms/footer.twig" with {
-    "content":footer_text
-    } %}
-  </footer>
+
 </div>

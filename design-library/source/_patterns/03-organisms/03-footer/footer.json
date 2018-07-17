@@ -1,3 +1,20 @@
 {
-  "content":"Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros."
+  "footer_images": [
+    {
+	    "image_url":"/images/drupal-assoc.png",
+        "link": "https://www.drupal.org",
+        "message":"Drupal Association"
+    },
+    {
+	    "image_url":"/images/simple-test.png",
+        "link": "https://www.simpletest.me",
+        "message":"Simple Test"
+    },
+    {
+	    "image_url":"/images/drupal-coffee.png",
+        "link": "/",
+        "message":"Drupal Coffee"
+    }
+  ],
+  "content": "© Copyright 2013-2018 by Nerdstein. All Rights Reserved."
 }

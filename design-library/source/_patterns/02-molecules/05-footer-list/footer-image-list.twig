@@ -1,0 +1,9 @@
+<div class="social_media--list">
+  {% for footer_images__item in footer_images %}
+    {% include "@atoms/footer-image.twig" with {
+      "image_url":footer_images__item.image_url,
+      "message":footer_images__item.message,
+      "link":footer_images__item.link
+    } %}
+  {% endfor %}
+</div>

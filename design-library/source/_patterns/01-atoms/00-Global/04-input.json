@@ -1,0 +1,15 @@
+{
+  "input_name": "iname",
+  "input_placeholder": "Placeholder",
+  "input_id": "summer",
+  "select_name": "select",
+  "select_placeholder": "None",
+  "select_id": "season",
+  "select_opt1":"Option one",
+  "select_opt2":"Option two",
+  "select_opt3":"Option three",
+  "textarea_name": "iname",
+  "textarea_placeholder": "Your message here...",
+  "textarea_id": "",
+  "submit_value": "Send"
+}

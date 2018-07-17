@@ -1,14 +1,27 @@
-<header id="header" class="grid section">
-  <div class="grid-cell grid-cell--logo">
+<header id="header" class="header grid section">
+  <div class="grid-cell">
     {% include "@atoms/logo.twig" with {
       "image_url":image_url,
       "image_alt":image_alt,
       "image_link":image_link
     } %}
   </div>
+  <div class="grid-cell grid-cell--content">
+    {% include "@molecules/section.twig" with {"section_menulist": section_menulist} %}
+  </div>
+  <div class="grid-cell grid-cell--content">
+    {% include "@atoms/05-Search/search.twig" with {
+      "search_id":search_id,
+      "search_name":search_name,
+      "search_placeholder":Search_placeholder
+    }   %}
+  </div>
   <div class="grid-cell grid-cell--social-icons">
     {% include "@molecules/social-icons.twig" with {
       "social_media":social_media
     }  %}
+  </div>
+  <div class="grid-cell grid-cell--content">
+    {% include "@molecules/section-list.twig" with {"section_list": section_list} %}
   </div>
 </header>

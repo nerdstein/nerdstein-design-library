@@ -1,6 +1,6 @@
-
-#page-wrapper {
+.page-wrapper {
   width: 100%;
+  height: 100%;
   padding: 0;
   margin: 0;
 }
@@ -8,38 +8,40 @@
 .section {
   width: 100%;
   padding: 0;
-  margin: 0 0 1em 0;
+  margin: 0;
 }
 
-#main-wrapper {
+.content {
+  margin-left:2em;
+}
+
+.main-wrapper {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  grid-gap: 1em;
-
   grid-template-areas:
       "a"
       "b";
 
   @include breakpoint($md-up) {
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
-        "a a a a a b b b";
+        "b b a a a a a a ";
   }
 
   @include breakpoint($lg-up) {
     grid-template-columns: repeat(8, 1fr);
     grid-template-areas:
-        "a a a a a a b b";
+        "b b a a a a a a ";
   }
-
+  .sidebar {
+    grid-area: b;
+  }
   .content {
     grid-area: a;
   }
 
-  .sidebar {
-    grid-area: b;
-  }
+
 }
 
 .section-footer {

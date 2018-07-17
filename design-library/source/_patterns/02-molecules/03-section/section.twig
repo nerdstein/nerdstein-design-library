@@ -1,4 +1,8 @@
-<div class="section">
-    {% include "@atoms/section-heading.twig" %}
-    {% include "@atoms/section-content.twig" %}
-</div>
+<ul class="section">
+    {% for key,value in section_menulist %}
+        {% include "@atoms/section-content.twig" with {
+          "content_element": value.content_element,
+          "content_url": value.content_url
+        } %}
+    {% endfor %}
+</ul>

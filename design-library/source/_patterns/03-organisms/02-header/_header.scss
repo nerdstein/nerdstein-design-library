@@ -1,40 +1,32 @@
-#header {
-  background-color: #eee;
-  border: 0px solid #aaa;
-  padding: 1.5vw;
+.header {
+  background-color: $key-color-blue--darker;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 1em;
-  grid-template-areas:
-      "a a a b b b";
-  grid-template-rows: 1fr;
+  padding: 2em;
+  height: 100%;
 
   > .grid-cell {
-    border: 0px solid #aaa;
-    padding: 0em;
-    display: flex;
     align-items: center;
+    margin: 1em auto;
+    max-width: 260px;
+    justify-content: center;
   }
 }
 
-.logo--wrapper {
-  width: 23vw;
-  height: 10vw;
-}
+.grid-cell--content {
+  color: $button-text-color;
 
-.grid-cell--logo {
-  grid-area: a;
-  justify-content: left;
+  a {
+  
+    color: inherit;
+  }
 }
 
 .grid-cell--social-icons {
-  grid-area: b;
-  justify-content: right;
-  .social_media--list {
-    margin-left: auto;
-    .social_media--item {
-      height: 5vw;
-      width: 5vw;
+
+  .social-media--list {
+
+    .social-media--item {
+
     }
   }
 }

@@ -1,9 +1,10 @@
 .logo--wrapper {
   display: block;
-  padding: 0;
+  padding: 0.7em 2em;
   margin: 0;
-  width: 10em;
-  height: 10em;
+  width: 14em;
+  height: 6em;
+  background: #fff;
 }
 
 .logo--link {
@@ -12,7 +13,7 @@
   margin: 0;
   width: inherit;
   height: inherit;
-  background-size: contain;
+  background-size: 10em;
   background-repeat: no-repeat;
   text-indent: -9999px;
 }

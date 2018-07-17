@@ -1,4 +1,20 @@
 {
-  "heading": "Categories",
-  "content": "<ul><li><a href=\"\">Tech</a></li><li><a href=\"\">News</a></li><li><a href=\"\">Tutorials</a></li><li><a href=\"\">Sports</a></li><ul>"
+  "section_menulist": {
+    "1": {
+      "content_element": "Tech",
+      "content_url": "http://nerdstein.net/tech"
+    },
+    "2": {
+      "content_element": "News",
+      "content_url": "http://nerdstein.net/news"
+    },
+    "3": {
+      "content_element": "Tutorials",
+      "content_url": "http://nerdstein.net/tutorials"
+    },
+    "4": {
+      "content_element": "Sports",
+      "content_url": "http://nerdstein.net/sports"
+    }
+  }
 }

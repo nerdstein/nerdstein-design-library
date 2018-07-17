@@ -1,5 +1,13 @@
 .section {
-  p {
-    margin: 20px;
+  display: block;
+
+  li {
+
+    margin-left: 1em;
+
+    &:hover {
+
+      color: $link-color--hover;
+    }
   }
 }

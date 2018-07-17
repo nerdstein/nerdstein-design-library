@@ -1,0 +1,11 @@
+<div class="section-list">
+{% include "@atoms/section-heading.twig" with {"heading": heading} %}
+<div class="post-list">
+    {% for key,value in section_list %}
+        {% include "@atoms/section-element.twig" with {
+          "section_element": value.section_element,
+          "section_url": value.section_url
+        } %}
+    {% endfor %}
+</div>
+</div>

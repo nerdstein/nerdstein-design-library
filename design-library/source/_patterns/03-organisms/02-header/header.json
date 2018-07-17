@@ -2,6 +2,27 @@
   "image_url": "../../images/nerdstein_11.png",
   "image_alt": "Nerdstein Logo",
   "image_link": "#",
+  "section_menulist": [
+    {
+      "content_element": "Tech",
+      "content_url": "/category/tech"
+    },
+    {
+      "content_element": "News",
+      "content_url": "/category/news"
+    },
+    {
+      "content_element": "Tutorials",
+      "content_url": "/category/tutorials"
+    },
+    {
+      "content_element": "Sports",
+      "content_url": "/category/sports"
+    }
+  ],
+  "search_id": "search",
+  "search_name": "Blog search",
+  "search_placeholder": "Search",
   "social_media": [
     {
       "name":"Twitter",
@@ -20,6 +41,21 @@
       "message":"Follow us on LinkedIn",
       "image":"../../images/social_media_icons/social_linkedin.png",
       "link":"http://www.linkedIn.com"
+    }
+  ],
+  "heading": "Posts",
+  "section_list": [
+    {
+      "section_element": "Mid-2018 Drupal Coffee Exchange Updates",
+      "section_url": "http://nerdstein.net"
+    },
+    {
+      "section_element": "Achieving Clarity in Component-based Best Practices",
+      "section_url": "http://nerdstein.net"
+    },
+    {
+      "section_element": "Achieving Clarity in Component-based Best Practices",
+      "section_url": "http://nerdstein.net"
     }
   ]
 }

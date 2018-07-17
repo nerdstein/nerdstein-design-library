@@ -1,4 +1,7 @@
-# Atom: Social Icons
+---
+title: Social icons
+---
+Description
 
 *Belongs to*
 
