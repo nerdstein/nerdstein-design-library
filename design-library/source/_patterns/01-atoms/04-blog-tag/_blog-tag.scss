@@ -1,9 +1,9 @@
 .highlight-title {
 
   @include tag-profile;
-  padding: .7em .6em .3em;
-  margin-bottom: 5px;
   display: inline-block;
+  margin-bottom: 5px;
+  padding: .7em .6em .3em;
 
   span {
     vertical-align: middle;
@@ -23,5 +23,4 @@
     vertical-align: middle;
     width: 1.4em;
   }
-  
 }

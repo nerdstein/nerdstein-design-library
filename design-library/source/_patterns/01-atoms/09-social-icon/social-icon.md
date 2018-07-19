@@ -1,6 +1,5 @@
-# Atom: Social Icon
 ---
-title: Social Icons
+title: Social Icon
 ---
 Description
 
@@ -8,3 +7,4 @@ Description
 
 * Molecule: Social Icons
 * Organism: Header
+

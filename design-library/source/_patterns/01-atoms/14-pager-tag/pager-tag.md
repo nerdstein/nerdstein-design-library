@@ -1,5 +1,5 @@
 ---
-title: Blog tag
+title: Pager tag
 ---
 Use these labels in the List Elements to categorize the blog articles
 

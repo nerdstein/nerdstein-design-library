@@ -1,17 +1,16 @@
-li.social_media--item {
+.social-media {
   display: inline-block;
-  padding: 0;
-  margin: 0;
   height: 2em;
+  margin: 0;
+  padding: 0;
   width: 2em;
 
-}
-
-a.social_media--icon {
-  display: block;
-  text-indent: -9999px;
-  height: inherit;
-  width: inherit;
-  background-repeat: no-repeat;
-  background-size: contain;
+  .social-media--icon {
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    height: inherit;
+    text-indent: -9999px;
+    width: inherit;
+  }
 }
