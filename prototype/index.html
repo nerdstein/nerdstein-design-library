@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="">
+<html>
   <head>
     <title>Nerdstein</title>
     <meta charset="UTF-8">
@@ -15,16 +15,8 @@
     <!-- End Pattern Lab -->
     
   </head>
-  <body class="">
-  
-<!-- View All Patterns in a Pattern Sub-Type -->
-<div class="sg-main" role="main">
-  <!-- Patterns -->
+  <body>
 
-  
-  
-    
-  
   <div id="page-wrapper" class="page-wrapper">
   <div id="main-wrapper" class="main-wrapper">
     <div class="sidebar">
@@ -181,9 +173,9 @@
     Security
   </span>
 </a>            <a class="highlight-title" style="background-color: " href="">
-  <img src="/images/svg/development-2.svg">
+  <img src="files/images/svg/development-2.svg">
   <span style="color: #b10283">
-    DevOps
+    Dev-ops
   </span>
 </a>    </div>
     </div>
@@ -224,69 +216,6 @@
 
 </div>
 
-  
-  
 
-
-</div><!--end .sg-main-->  
-  <!--DO NOT REMOVE-->
-  <script type="text/json" id="sg-pattern-data-footer" class="sg-pattern-data">
-  {"patternPartial":"viewall-pages-one-sidebar"}
-</script>
-
-<script>
-  /*!
-  * scriptLoader - v0.1
-  *
-  * Copyright (c) 2014 Dave Olsen, http://dmolsen.com
-  * Licensed under the MIT license
-  *
-  */
-  
-  var scriptLoader = {
-    run: function(js,cb,target) {
-      var s  = document.getElementById(target+'-'+cb);
-      for (var i = 0; i < js.length; i++) {
-        var src = (typeof js[i] != 'string') ? js[i].src : js[i];
-        var c   = document.createElement('script');
-        c.src   = '../../'+src+'?'+cb;
-        if (typeof js[i] != 'string') {
-          if (js[i].dep !== undefined) {
-            c.onload = function(dep,cb,target) {
-              return function() {
-                scriptLoader.run(dep,cb,target);
-              }
-            }(js[i].dep,cb,target);
-          }
-        }
-        s.parentNode.insertBefore(c,s);
-      }
-    }
-  }
-</script>
-
-<script id="pl-js-polyfill-insert-1531855276">
-  (function() {
-    if (self != top) {
-      var cb = '1531855276';
-      var js = [];
-      if (typeof document !== 'undefined' && !('classList' in document.documentElement)) {
-        js.push('styleguide/bower_components/classList.min.js');
-      }
-      scriptLoader.run(js,cb,'pl-js-polyfill-insert');
-    }
-  })();
-</script>
-
-<script id="pl-js-insert-1531855276">
-  (function() {
-    if (self != top) {
-      var cb = '1531855276';
-      var js = [ { 'src': 'styleguide/bower_components/jwerty.min.js', 'dep': [ 'styleguide/js/patternlab-pattern.min.js' ] } ];
-      scriptLoader.run(js,cb,'pl-js-insert');
-    }
-  })();
-</script>
-  
   </body>
 </html>

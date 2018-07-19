@@ -1,8 +1,12 @@
 ---
 title: Footer Images list
 ---
-Use this sección for logo images under the footer
+Use this secction for logo images above the footer
 
 *Belongs to*
 
 * Organism: Footer
+
+*Depends on*
+
+* Footer image

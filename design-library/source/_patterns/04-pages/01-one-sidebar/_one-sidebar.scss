@@ -1,32 +1,32 @@
 .page-wrapper {
-  width: 100%;
   height: 100%;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .section {
-  width: 100%;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .content {
-  margin-left:2em;
+  margin-left: 2em;
 }
 
 .main-wrapper {
   display: grid;
+  grid-template-areas:
+  "a"
+  "b";
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  grid-template-areas:
-      "a"
-      "b";
 
   @include breakpoint($md-up) {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
-        "b b a a a a a a ";
+    'b b a a a a a a ';
   }
 
   @include breakpoint($lg-up) {
@@ -34,14 +34,14 @@
     grid-template-areas:
         "b b a a a a a a ";
   }
+
   .sidebar {
     grid-area: b;
   }
+
   .content {
     grid-area: a;
   }
-
-
 }
 
 .section-footer {
