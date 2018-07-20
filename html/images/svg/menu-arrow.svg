@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons / Menu-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons-/-Menu-arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-4" fill="#18AF72" x="1" y="1" width="28" height="28" rx="3"></rect>
+        <g id="Group-3" transform="translate(11.000000, 3.000000)" stroke="#FFFFFF" stroke-linecap="square" stroke-width="2">
+            <path d="M-0.431423151,6.53033009 L13.4920833,6.53033009" id="Line-2" transform="translate(6.530330, 6.530330) rotate(45.000000) translate(-6.530330, -6.530330) "></path>
+            <path d="M-0.336038969,17.0710678 L13.2279221,16.763456" id="Line-2" transform="translate(6.363961, 17.071068) rotate(-45.000000) translate(-6.363961, -17.071068) "></path>
+        </g>
+    </g>
+</svg>
