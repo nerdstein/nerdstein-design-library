@@ -10,14 +10,14 @@
     {% include "@molecules/section.twig" with {"section_menulist": section_menulist} %}
   </div>
   <div class="grid-cell grid-cell--content">
-    {% include "@atoms/05-Search/search.twig" with {
+    {% include "@atoms/search.twig" with {
       "search_id":search_id,
       "search_name":search_name,
       "search_placeholder":Search_placeholder
     }   %}
   </div>
   <div class="grid-cell grid-cell--social-icons">
-    {% include "@molecules/social-icons.twig" with {
+    {% include "@molecules/social-media.twig" with {
       "social_media":social_media
     }  %}
   </div>

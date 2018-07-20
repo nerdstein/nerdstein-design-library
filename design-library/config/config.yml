@@ -42,6 +42,7 @@ plugins:
   twigNamespaces:
     enabled: true
     roots: { }
+      #- source/_patterns/00-global
       #- source/_patterns/01-atoms
       #- source/_patterns/02-molecules
       #- source/_patterns/03-organisms
@@ -59,12 +60,18 @@ plugins:
           - source/_patterns/01-atoms/08-logo
           - source/_patterns/01-atoms/09-social-icon
           - source/_patterns/01-atoms/10-footer-text
+          - source/_patterns/01-atoms/11-footer-image
+          - source/_patterns/01-atoms/12-section-element
+          - source/_patterns/01-atoms/13-search
+          - source/_patterns/01-atoms/14-pager-tag
       molecules:
         paths:
           - source/_patterns/02-molecules/01-blog-tags
           - source/_patterns/02-molecules/02-list-element
           - source/_patterns/02-molecules/03-section
-          - source/_patterns/02-molecules/04-social-icons
+          - source/_patterns/02-molecules/04-social-media
+          - source/_patterns/02-molecules/05-footer-list
+          - source/_patterns/02-molecules/06-section-list
       organisms:
         paths:
           - source/_patterns/03-organisms/01-blog-list
