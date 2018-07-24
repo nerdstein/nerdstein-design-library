@@ -1,0 +1,8 @@
+<ul class="sidebar-menu">
+    {% for key,value in sidebar_menulist %}
+        {% include "@atoms/sidebar-content.twig" with {
+          "content_title": value.content_title,
+          "content_url": value.content_url
+        } %}
+    {% endfor %}
+</ul>

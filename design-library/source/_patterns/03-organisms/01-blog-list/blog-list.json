@@ -3,64 +3,55 @@
     "1": {
       "tag_name": "Back-end",
       "tag_icon_url": "/images/svg/back-end.svg",
-      "tag_color": "#fff",
-      "tag_background": "#008e8e",
+      "tag_color": "highlight-tag--greenbox",
       "tag_link_url": "http://nerdstein.net"
     },
     "2": {
       "tag_name": "Drupal",
       "tag_icon_url": "/images/svg/drupal.svg",
-      "tag_color": "#fff",
-      "tag_background": "#0a509b",
+      "tag_color": "highlight-tag--greenbox",
       "tag_link_url": "http://nerdstein.net"
     },
     "3": {
       "tag_name": "Dev-ops",
       "tag_icon_url": "/images/svg/development.svg",
-      "tag_color": "#fff",
-      "tag_background": "#b10283",
+      "tag_color": "highlight-tag--greenbox",
       "tag_link_url": "http://nerdstein.net"
     },
     "4": {
       "tag_name": "Front-end",
       "tag_icon_url": "/images/svg/front-end.svg",
-      "tag_color": "#fff",
-      "tag_background": "#ed6300",
+      "tag_color": "highlight-tag--greenbox",
       "tag_link_url": "http://nerdstein.net"
     },
     "5": {
       "tag_name": "People",
       "tag_icon_url": "/images/svg/people.svg",
-      "tag_color": "#fff",
-      "tag_background": "#008e8e",
+      "tag_color": "highlight-tag--greenbox",
       "tag_link_url": "http://nerdstein.net"
     },
     "6": {
       "tag_name": "Politics",
       "tag_icon_url": "/images/svg/sports.svg",
-      "tag_color": "#fff",
-      "tag_background": "#b10283",
+      "tag_color": "highlight-tag--greenbox",
       "tag_link_url": "http://nerdstein.net"
     },
     "7": {
       "tag_name": "Security",
       "tag_icon_url": "/images/svg/security.svg",
-      "tag_color": "#fff",
-      "tag_background": "#0a509b",
+      "tag_color": "highlight-tag--greenbox",
       "tag_link_url": "http://nerdstein.net"
     },
     "8": {
       "tag_name": "Sports",
       "tag_icon_url": "/images/svg/sports.svg",
-      "tag_color": "#fff",
-      "tag_background": "#008e8e",
+      "tag_color": "highlight-tag--greenbox",
       "tag_link_url": "http://nerdstein.net"
     },
     "9": {
       "tag_name": "Tutorials",
       "tag_icon_url": "/images/svg/tutorials.svg",
-      "tag_color": "#fff",
-      "tag_background": "#ed6300",
+      "tag_color": "highlight-tag--greenbox",
       "tag_link_url": "http://nerdstein.net"
     }
   },
@@ -73,13 +64,13 @@
         "1": {
           "tag_name": "Cloud",
           "tag_icon_url": "/images/svg/drupal-2.svg",
-          "tag_color": "#b10283",
+          "tag_color": "highlight-tag--bluee",
           "tag_link_url": "http://nerdstein.net"
         },
         "2": {
           "tag_name": "Drupal",
           "tag_icon_url": "/images/svg/drupal-2.svg",
-          "tag_color": "#0a509b",
+          "tag_color": "highlight-tag--bluee",
           "tag_link_url": "http://nerdstein.net"
         }
       },
@@ -93,13 +84,13 @@
         "1": {
           "tag_name": "Security",
           "tag_icon_url": "/images/svg/security-2.svg",
-          "tag_color": "#0a509b",
+          "tag_color": "highlight-tag--bluee",
           "tag_link_url": "http://nerdstein.net"
         },
         "2": {
           "tag_name": "DevOps",
           "tag_icon_url": "/images/svg/development-2.svg",
-          "tag_color": "#b10283",
+          "tag_color": "highlight-tag--purple",
           "tag_link_url": "http://nerdstein.net"
         }
       },
@@ -114,13 +105,13 @@
         "1": {
           "tag_name": "Responsive",
           "tag_icon_url": "/images/svg/drupal-2.svg",
-          "tag_color": "#0a509b",
+          "tag_color": "highlight-tag--bluee",
           "tag_link_url": "http://nerdstein.net"
         },
         "2": {
           "tag_name": "Agile",
           "tag_icon_url": "/images/svg/drupal-2.svg",
-          "tag_color": "#0a509b",
+          "tag_color": "highlight-tag--bluee",
           "tag_link_url": "http://nerdstein.net"
         }
       },

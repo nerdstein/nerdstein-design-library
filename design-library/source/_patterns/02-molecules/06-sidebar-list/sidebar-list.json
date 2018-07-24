@@ -1,0 +1,21 @@
+{
+  "heading": "Posts",
+  "sidebar_list": {
+    "1":{
+      "element_name": "Mid-2018 Drupal Coffee Exchange Updates",
+      "element_url": "http://nerdstein.net"
+    },
+    "2":{
+      "element_name": "Achieving Clarity in Component-based Best Practices",
+      "element_url": "http://nerdstein.net"
+    },
+    "3":{
+      "element_name": "LeVeon Bell and Saquon Barkley",
+      "element_url": "http://nerdstein.net"
+    },
+    "4":{
+      "element_name": "Lorem ipsum dolor sit amet, consectetur",
+      "element_url": "http://nerdstein.net"
+    }
+  }
+}

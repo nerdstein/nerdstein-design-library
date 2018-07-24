@@ -7,13 +7,15 @@
     } %}
   </div>
   <div class="grid-cell grid-cell--content">
-    {% include "@molecules/section.twig" with {"section_menulist": section_menulist} %}
+    {% include "@molecules/sidebar-menu.twig" with {
+      "sidebar_menulist": sidebar_menulist
+    } %}
   </div>
   <div class="grid-cell grid-cell--content">
     {% include "@atoms/search.twig" with {
       "search_id":search_id,
       "search_name":search_name,
-      "search_placeholder":Search_placeholder
+      "search_placeholder":search_placeholder
     }   %}
   </div>
   <div class="grid-cell grid-cell--social-icons">
@@ -22,6 +24,9 @@
     }  %}
   </div>
   <div class="grid-cell grid-cell--content">
-    {% include "@molecules/section-list.twig" with {"section_list": section_list} %}
+    {% include "@molecules/sidebar-list.twig" with {
+      "heading": heading,
+      "sidebar_list": sidebar_list
+    } %}
   </div>
 </header>

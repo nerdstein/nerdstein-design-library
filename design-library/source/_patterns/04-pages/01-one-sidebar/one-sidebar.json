@@ -2,24 +2,27 @@
   "image_url": "../../images/nerdstein_11.png",
   "image_alt": "Nerdstein Logo",
   "image_link": "#",
-  "section_menulist": [
+  "sidebar_menulist": [
     {
-      "content_element": "Tech",
+      "content_title": "Tech",
       "content_url": "/category/tech"
     },
     {
-      "content_element": "News",
+      "content_title": "News",
       "content_url": "/category/news"
     },
     {
-      "content_element": "Tutorials",
+      "content_title": "Tutorials",
       "content_url": "/category/tutorials"
     },
     {
-      "content_element": "Sports",
+      "content_title": "Sports",
       "content_url": "/category/sports"
     }
   ],
+  "search_id": "search",
+  "search_name": "Blog search",
+  "search_placeholder": "Search",
   "social_media": [
     {
       "name":"Twitter",
@@ -41,200 +44,116 @@
     }
   ],
   "heading": "Posts",
-  "section_list": [
+  "sidebar_list": [
     {
-      "section_element": "Mid-2018 Drupal Coffee Exchange Updates",
-      "section_url": "http://nerdstein.net"
+      "element_name": "Mid-2018 Drupal Coffee Exchange Updates",
+      "element_url": "http://nerdstein.net"
     },
     {
-      "section_element": "Achieving Clarity in Component-based Best Practices",
-      "section_url": "http://nerdstein.net"
+      "element_name": "Achieving Clarity in Component-based Best Practices",
+      "element_url": "http://nerdstein.net"
     },
     {
-      "section_element": "LeVeon Bell and Saquon Barkley",
-      "section_url": "http://nerdstein.net"
+      "element_name": "LeVeon Bell and Saquon Barkley",
+      "element_url": "http://nerdstein.net"
     },
     {
-      "section_element": "LeVeon Bell and Saquon Barkley",
-      "section_url": "http://nerdstein.net"
-    },
-    {
-      "section_element": "LeVeon Bell and Saquon Barkley",
-      "section_url": "http://nerdstein.net"
-    },
-    {
-      "section_element": "LeVeon Bell and Saquon Barkley",
-      "section_url": "http://nerdstein.net"
-    },
-    {
-      "section_element": "LeVeon Bell and Saquon Barkley",
-      "section_url": "http://nerdstein.net"
+      "element_name": "Lorem ipsum dolor sit amet, consectetur",
+      "element_url": "http://nerdstein.net"
     }
   ],
   "tag_list_menu":{
     "1": {
       "tag_name": "Back-end",
       "tag_icon_url": "/images/svg/back-end.svg",
-      "tag_color": "#fff",
-      "tag_background": "#008e8e",
+      "tag_color": "highlight-tag--greenbox",
       "tag_link_url": "http://nerdstein.net"
     },
     "2": {
       "tag_name": "Drupal",
       "tag_icon_url": "/images/svg/drupal.svg",
-      "tag_color": "#fff",
-      "tag_background": "#0a509b",
+      "tag_color": "highlight-tag--bluebox",
       "tag_link_url": "http://nerdstein.net"
     },
     "3": {
       "tag_name": "Dev-ops",
       "tag_icon_url": "/images/svg/development.svg",
-      "tag_color": "#fff",
-      "tag_background": "#b10283",
+      "tag_color": "highlight-tag--purplebox",
       "tag_link_url": "http://nerdstein.net"
     },
     "4": {
       "tag_name": "Front-end",
       "tag_icon_url": "/images/svg/front-end.svg",
-      "tag_color": "#fff",
-      "tag_background": "#ed6300",
+      "tag_color": "highlight-tag--orangebox",
       "tag_link_url": "http://nerdstein.net"
     },
     "5": {
       "tag_name": "People",
       "tag_icon_url": "/images/svg/people.svg",
-      "tag_color": "#fff",
-      "tag_background": "#008e8e",
+      "tag_color": "highlight-tag--greenbox",
       "tag_link_url": "http://nerdstein.net"
     },
     "6": {
       "tag_name": "Politics",
       "tag_icon_url": "/images/svg/sports.svg",
-      "tag_color": "#fff",
-      "tag_background": "#b10283",
+      "tag_color": "highlight-tag--purplebox",
       "tag_link_url": "http://nerdstein.net"
     },
     "7": {
       "tag_name": "Security",
       "tag_icon_url": "/images/svg/security.svg",
-      "tag_color": "#fff",
-      "tag_background": "#0a509b",
+      "tag_color": "highlight-tag--bluebox",
       "tag_link_url": "http://nerdstein.net"
     },
     "8": {
       "tag_name": "Sports",
       "tag_icon_url": "/images/svg/sports.svg",
-      "tag_color": "#fff",
-      "tag_background": "#008e8e",
+      "tag_color": "highlight-tag--greenbox",
       "tag_link_url": "http://nerdstein.net"
     },
     "9": {
       "tag_name": "Tutorials",
       "tag_icon_url": "/images/svg/tutorials.svg",
-      "tag_color": "#fff",
-      "tag_background": "#ed6300",
+      "tag_color": "highlight-tag--orangebox",
       "tag_link_url": "http://nerdstein.net"
     }
   },
   "blog_list": {
     "1": {
-      "title": "The category manager enforces our risk appetites.",
-      "link_url": "http://nerdstein.net",
-      "body": "The preemptive commitment leads to an agile feedback, while the game changer connects the dots to the end game. Our under-the-radar business platforms energize the market thinker.",
-      "tag_list": {
-        "1": {
-          "tag_name": "Cloud",
-          "tag_icon_url": "/images/svg/drupal-2.svg",
-          "tag_color": "#b10283",
-          "tag_link_url": "http://nerdstein.net"
-        },
-        "2": {
-          "tag_name": "Drupal",
-          "tag_icon_url": "/images/svg/drupal-2.svg",
-          "tag_color": "#0a509b",
-          "tag_link_url": "http://nerdstein.net"
-        }
-      },
-      "posted_date": "January 5, 2017"
-    },
-    "2": {
-      "title": "Our improved focus on speed facilitates our next step.",
-      "link_url": "http://nerdstein.net",
-      "body": "Our dashboards conservatively strengthen the Chief IT Operations Catalyst. The senior support staff whiteboards our enterprise risk management.",
-      "tag_list": {
-        "1": {
-          "tag_name": "Security",
-          "tag_icon_url": "/images/svg/security-2.svg",
-          "tag_color": "#0a509b",
-          "tag_link_url": "http://nerdstein.net"
-        },
-        "2": {
-          "tag_name": "DevOps",
-          "tag_icon_url": "/images/svg/development-2.svg",
-          "tag_color": "#b10283",
-          "tag_link_url": "http://nerdstein.net"
-        }
-      },
-      "image_url": "/images/dog-cello.jpg",
-      "posted_date": "March 19, 2017"
-    },
-    "3": {
-      "title": "The policy makers consistently showcase a stellar measurement.",
-      "link_url": "http://nerdstein.net",
-      "body": "Predictability, best practice and responsive design empower a bandwidth. The Chief Business Operations Officer learns a big-bang approach by leveraging value creations. The attackers re-content our consistencies; nevertheless the Global Chief Technical Futurist re-imagines the vital, cross-industry, pre-plans. The game changers incentivize our coordinated sales targets; nevertheless the profit-maximizing markets aggressively empower the team players. To continue our growth, we must table go-to-market consistencies. In the same time, the human resources deliver a ROE.",
-      "tag_list": {
-        "1": {
-          "tag_name": "Responsive",
-          "tag_icon_url": "/images/svg/drupal-2.svg",
-          "tag_color": "#0a509b",
-          "tag_link_url": "http://nerdstein.net"
-        },
-        "2": {
-          "tag_name": "Agile",
-          "tag_icon_url": "/images/svg/drupal-2.svg",
-          "tag_color": "#0a509b",
-          "tag_link_url": "http://nerdstein.net"
-        }
-      },
-      "posted_date": "June 25, 2017"
-    }
-  },
-  "blog_list": {
-    "1": {
-      "title": "The category manager enforces our risk appetites.",
+      "title": "The category manager enforces our risk appetites",
       "link_url": "http://nerdstein.net",
       "body": "The preemptive commitment leads to an agile feedback, while the game changer connects the dots to the end game. Our under-the-radar business platforms energize the market thinker.",
       "tag_list": {
         "1": {
           "tag_name": "Cloud",
           "tag_icon_url": "/images/svg/front-end-2.svg",
-          "tag_color": "#ed6300",
+          "tag_color": "highlight-tag--orange",
           "tag_link_url": "http://nerdstein.net"
         },
         "2": {
           "tag_name": "Drupal",
           "tag_icon_url": "/images/svg/drupal-2.svg",
-          "tag_color": "#0a509b",
+          "tag_color": "highlight-tag--blue",
           "tag_link_url": "http://nerdstein.net"
         }
       },
       "posted_date": "January 5, 2017"
     },
     "2": {
-      "title": "Our improved focus on speed facilitates our next step.",
+      "title": "Our improved focus on speed facilitates our next step",
       "link_url": "http://nerdstein.net",
       "body": "Our dashboards conservatively strengthen the Chief IT Operations Catalyst. The senior support staff whiteboards our enterprise risk management.",
       "tag_list": {
         "1": {
           "tag_name": "Security",
           "tag_icon_url": "/images/svg/security-2.svg",
-          "tag_color": "#0a509b",
+          "tag_color": "highlight-tag--blue",
           "tag_link_url": "http://nerdstein.net"
         },
         "2": {
           "tag_name": "DevOps",
           "tag_icon_url": "/images/svg/development-2.svg",
-          "tag_color": "#b10283",
+          "tag_color": "highlight-tag--purple",
           "tag_link_url": "http://nerdstein.net"
         }
       },
@@ -249,13 +168,13 @@
         "1": {
           "tag_name": "Responsive",
           "tag_icon_url": "/images/svg/back-end-2.svg",
-          "tag_color": "#008e8e",
+          "tag_color": "highlight-tag--green",
           "tag_link_url": "http://nerdstein.net"
         },
         "2": {
           "tag_name": "Agile",
           "tag_icon_url": "/images/svg/drupal-2.svg",
-          "tag_color": "#0a509b",
+          "tag_color": "highlight-tag--blue",
           "tag_link_url": "http://nerdstein.net"
         }
       },

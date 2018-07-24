@@ -1,0 +1,32 @@
+<div id="page-wrapper" class="page-wrapper">
+  <div id="main-wrapper" class="main-wrapper">
+    <div class="sidebar">
+      {% include "@organisms/header.twig" with {
+      "image_url":image_url,
+      "image_alt":image_alt,
+      "image_link":image_link,
+      "sidebar_menulist": sidebar_menulist,
+      "search_id":search_id,
+      "search_name":search_name,
+      "search_placeholder":search_placeholder,
+      "social_media":social_media,
+      "heading":heading,
+      "sidebar_list":sidebar_list
+      } %}
+    </div>
+    <div class="content">
+      <div class="section">
+        {% include "@atoms/list-title.twig" with {"title": title}  %}
+        {% include "@molecules/blog-tags.twig" with {"tag_list": tag_list} %}
+        {% include "@atoms/list-posted-on.twig" %}
+        {% include "@atoms/list-body.twig" %}
+      </div>
+      <footer class="section section-footer">
+      {% include "@organisms/footer.twig" with {
+      "content":footer_text,
+      "footer_images":footer_images
+      } %}
+      </footer>
+    </div>
+  </div>
+</div>

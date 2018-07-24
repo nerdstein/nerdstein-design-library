@@ -2,21 +2,21 @@
   "image_url": "../../images/nerdstein_11.png",
   "image_alt": "Nerdstein Logo",
   "image_link": "#",
-  "section_menulist": [
+  "sidebar_menulist": [
     {
-      "content_element": "Tech",
+      "content_title": "Tech",
       "content_url": "/category/tech"
     },
     {
-      "content_element": "News",
+      "content_title": "News",
       "content_url": "/category/news"
     },
     {
-      "content_element": "Tutorials",
+      "content_title": "Tutorials",
       "content_url": "/category/tutorials"
     },
     {
-      "content_element": "Sports",
+      "content_title": "Sports",
       "content_url": "/category/sports"
     }
   ],
@@ -44,18 +44,22 @@
     }
   ],
   "heading": "Posts",
-  "section_list": [
+  "sidebar_list": [
     {
-      "section_element": "Mid-2018 Drupal Coffee Exchange Updates",
-      "section_url": "http://nerdstein.net"
+      "element_name": "Mid-2018 Drupal Coffee Exchange Updates",
+      "element_url": "http://nerdstein.net"
     },
     {
-      "section_element": "Achieving Clarity in Component-based Best Practices",
-      "section_url": "http://nerdstein.net"
+      "element_name": "Achieving Clarity in Component-based Best Practices",
+      "element_url": "http://nerdstein.net"
     },
     {
-      "section_element": "Achieving Clarity in Component-based Best Practices",
-      "section_url": "http://nerdstein.net"
+      "element_name": "LeVeon Bell and Saquon Barkley",
+      "element_url": "http://nerdstein.net"
+    },
+    {
+      "element_name": "Lorem ipsum dolor sit amet, consectetur",
+      "element_url": "http://nerdstein.net"
     }
   ]
 }
