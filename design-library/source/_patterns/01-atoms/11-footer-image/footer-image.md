@@ -1,7 +1,7 @@
 ---
 title: Footer Image
 ---
-In case of any, use this image style on List elements
+Use this style for logo images over the footer.
 
 *Belongs to*
 
