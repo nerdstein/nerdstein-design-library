@@ -1,7 +1,8 @@
 .header {
   background-color: $key-color-blue--darker;
   display: grid;
-  padding: 2em;
+  margin: 0;
+  padding: 0;
   height: 100%;
 
   > .grid-cell {
@@ -14,19 +15,24 @@
 
 .grid-cell--content {
   color: $button-text-color;
-
+  display:none;
+  
   a {
   
     color: inherit;
   }
+
+  @include breakpoint($lg-up) {
+    display:inline-block;
+  }
+  
 }
 
-.grid-cell--social-icons {
+.menu-icon {
 
-  .social-media--list {
+  
 
-    .social-media--item {
-
-    }
+  @include breakpoint($lg-up) {
+    display:inline-block;
   }
 }

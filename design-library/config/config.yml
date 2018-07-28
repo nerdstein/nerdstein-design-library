@@ -64,6 +64,7 @@ plugins:
           - source/_patterns/01-atoms/12-sidebar-list-element
           - source/_patterns/01-atoms/13-search
           - source/_patterns/01-atoms/14-pager-tag
+          - source/_patterns/01-atoms/15-nav-icon
       molecules:
         paths:
           - source/_patterns/02-molecules/01-blog-tags

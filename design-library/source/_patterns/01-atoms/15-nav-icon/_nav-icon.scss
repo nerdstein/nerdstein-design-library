@@ -1,0 +1,13 @@
+a {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: inherit;
+  text-indent: -9999px;
+  display: block;
+  text-indent: -9999px;
+  width: inherit;
+
+  &.menu {
+    background-image: url('../images/svg/menu.svg');
+  }
+}
