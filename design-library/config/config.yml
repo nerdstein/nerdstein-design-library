@@ -48,6 +48,12 @@ plugins:
       #- source/_patterns/03-organisms
       #- source/_patterns/04-pages
     namespaces:
+      global:
+        paths:
+          - source/_patterns/00-global/01-base-colors
+          - source/_patterns/00-global/02-tag-colors
+          - source/_patterns/00-global/03-fonts
+          - source/_patterns/00-global/04-input
       atoms:
         paths:
           - source/_patterns/01-atoms/01-list-title

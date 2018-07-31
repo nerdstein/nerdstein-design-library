@@ -1,0 +1,34 @@
+.sg-swatch {
+
+  &.-base1 {
+    background-color: $key-color-1--base;
+  }
+
+  &.-base2 {
+    background-color: $key-color-2--base;
+  }
+
+  &.-darkblue {
+    background-color: $key-color-blue--darker;
+  }
+
+  &.-base-font-color {
+    background-color: $base-font-color;
+  }
+
+  &.-darkgray {
+    background-color: $dark-gray;
+  }
+
+  &.-mediumgray {
+    background-color: $medium-gray;
+  }
+
+  &.-lightgray {
+    background-color: $light-gray;
+  }
+
+  &.-base-background {
+    background-color: $base-background-color;
+  }
+}
