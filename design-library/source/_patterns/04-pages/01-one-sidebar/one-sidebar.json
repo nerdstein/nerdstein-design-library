@@ -193,8 +193,8 @@
     },
     {
 	    "image_url":"/images/simple-test.png",
-        "link": "https://www.simpletest.me",
-        "message":"Simple Test"
+        "link": "https://www.simplytest.me",
+        "message":"SimplyTest.me"
     },
     {
 	    "image_url":"/images/drupal-coffee.png",
