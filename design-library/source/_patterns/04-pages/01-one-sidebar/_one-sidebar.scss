@@ -5,34 +5,30 @@
   width: 100%;
 }
 
-.content {
-  margin-left: 2em;
-
-  .section {
-    margin: 0;
-    padding: 0;
-    /*width: 100%;*/
-  }
+.section {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 #main-wrapper {
   display: grid;
   grid-template-areas:
-  "a"
-  "b";
+  'a'
+  'b';
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
 
   @include breakpoint($md-up) {
-    grid-template-columns: 1fr;
     grid-template-areas:
-    'a b ';
+    'a b';
+    grid-template-columns: 1fr;
   }
 
   @include breakpoint($lg-up) {
-    grid-template-columns: repeat(6, 1fr);
     grid-template-areas:
-        "a b b b b b ";
+    'a a b b b b b b';
+    grid-template-columns: repeat(8, 1fr);
   }
 
   .sidebar {
@@ -41,9 +37,6 @@
 
   .content {
     grid-area: b;
+    margin: 2em;
   }
-}
-
-.section-footer {
-
 }

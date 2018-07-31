@@ -1,38 +1,37 @@
-.header {
+#header {
   background-color: $key-color-blue--darker;
   display: grid;
+  height: 100%;
   margin: 0;
   padding: 0;
-  height: 100%;
+  
+  color: #fff;
 
   > .grid-cell {
-    align-items: center;
-    margin: 1em auto;
-    max-width: 260px;
-    justify-content: center;
-  }
-}
+  
+    color: $button-text-color;
 
-.grid-cell--content {
-  color: $button-text-color;
-  display:none;
-  
-  a {
-  
-    color: inherit;
   }
 
-  @include breakpoint($lg-up) {
-    display:inline-block;
+  .grid-cell--content {
+    
+    display: none;
+
+    a {
+
+      color: $button-text-color;
+    }
+
+    @include breakpoint($lg-up) {
+      display: block;
+    }
   }
-  
-}
 
-.menu-icon {
+  .grid-cell--menu {
+    display: block;
 
-  
-
-  @include breakpoint($lg-up) {
-    display:inline-block;
+    @include breakpoint($lg-up) {
+      display: none;
+    }
   }
 }

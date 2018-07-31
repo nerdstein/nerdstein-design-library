@@ -1,10 +1,12 @@
 $base-font-family: 'Arsenal', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif;
 $heading-font-family: 'Karma', serif;
-$fa-font-path: "../webfonts";
+$fa-font-path: '../webfonts';
 
 $base-font-color: #333;
 $base-background-color: #f8f8f8;
 $key-background-color: #fff;
+
+$key-shadow-color: 0 2px 4px rgba(0, 0, 0, 0.75);
 
 $button-text-color: #fff;
 $input-background-color: #fff;
@@ -74,11 +76,6 @@ $dark-gray: #4a4a4a;
   padding: .5em .75em;
 
 }
-@mixin tag-blue {
-  @include tag-profile;
-  color: $key-color-blue--base;
-
-  &:hover {
-    color: $key-color-blue--lighter;
-  }
+@mixin shadow {
+  box-shadow: $key-shadow-color;
 }

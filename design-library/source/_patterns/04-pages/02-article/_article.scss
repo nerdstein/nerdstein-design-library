@@ -1,11 +1,5 @@
-.page-wrapper {
+#page-wrapper {
   height: 100%;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-.section {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -15,32 +9,38 @@
   margin-left: 2em;
 }
 
-.main-wrapper {
+.section {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#main-wrapper {
   display: grid;
   grid-template-areas:
-  "a"
-  "b";
+  'a'
+  'b';
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
 
   @include breakpoint($md-up) {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     grid-template-areas:
-    'b b a a a a a a ';
+    'a b ';
   }
 
   @include breakpoint($lg-up) {
     grid-template-columns: repeat(8, 1fr);
     grid-template-areas:
-        "b b a a a a a a ";
+        'a a b b b b b b';
   }
 
   .sidebar {
-    grid-area: b;
+    grid-area: a;
   }
 
   .content {
-    grid-area: a;
+    grid-area: b;
   }
 }
 

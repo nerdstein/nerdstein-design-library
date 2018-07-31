@@ -1,0 +1,27 @@
+{
+  "title": "The category manager enforces our risk appetites.",
+  "link_url": "http://nerdstein.net",
+  "body": "The preemptive commitment leads to an agile feedback, while the game changer connects the dots to the end game. Our under-the-radar business platforms energize the market thinker.",
+  "tag_list": {
+    "1": {
+      "tag_name": "Cloud",
+      "tag_icon_url": "/images/svg/politics-2.svg",
+      "tag_color": "#b10283",
+      "tag_background": "#fff",
+      "tag_link_url": "http://nerdstein.net"
+    },
+    "2": {
+      "tag_name": "Drupal",
+      "tag_icon_url": "/images/svg/drupal-2.svg",
+      "tag_color": "#0a509b",
+      "tag_link_url": "http://nerdstein.net"
+    },
+    "3": {
+      "tag_name": "Cats",
+      "tag_icon_url": "/images/svg/sports-2.svg",
+      "tag_color": "#008e8e",
+      "tag_link_url": "http://nerdstein.net"
+    }
+  },
+  "posted_date": "January 5, 2017"
+}

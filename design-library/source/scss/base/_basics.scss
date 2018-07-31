@@ -34,7 +34,7 @@ h3,
 h4 {
   @include font-profile--heading;
   line-height: 1.2;
-  margin: 0 0 .5em;
+  margin: .5em 0;
   padding: 0;
 }
 
@@ -100,5 +100,3 @@ textarea {
     background-color: $link-color--hover;
   }
 }
-
-

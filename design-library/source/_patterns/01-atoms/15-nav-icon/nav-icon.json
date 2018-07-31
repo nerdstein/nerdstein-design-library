@@ -1,5 +1,5 @@
 {
-  "nav-faclass":"fas fa-bars",
-  "nav-message":"Open Menu",
-  "nav-link":"#"
+  "nav_icon":"fas fa-bars",
+  "nav_message":"Menu",
+  "nav_link":"#"
 }

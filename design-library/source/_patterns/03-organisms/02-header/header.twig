@@ -1,32 +1,17 @@
-<header id="header" class="header grid section">
-  <div class="grid-cell">
-    {% include "@atoms/logo.twig" with {
-      "image_url":image_url,
-      "image_alt":image_alt,
-      "image_link":image_link
-    } %}
-  </div>
-  <div class="grid-cell grid-cell--content">
-    {% include "@molecules/sidebar-menu.twig" with {
-      "sidebar_menulist": sidebar_menulist
-    } %}
-  </div>
-  <div class="grid-cell grid-cell--content">
-    {% include "@atoms/search.twig" with {
-      "search_id":search_id,
-      "search_name":search_name,
-      "search_placeholder":search_placeholder
-    }   %}
-  </div>
-  <div class="grid-cell grid-cell--content">
-    {% include "@molecules/social-media.twig" with {
-      "social_media":social_media
-    }  %}
-  </div>
-  <div class="grid-cell grid-cell--content">
-    {% include "@molecules/sidebar-list.twig" with {
+<header id="header">
+    {% include "@molecules/sidebar.twig" with {
+      "image_url": image_url,
+      "image_alt": image_alt,
+      "image_link": image_link,
+      "nav_icon": nav_icon,
+      "nav_message": nav_message,
+      "nav_link": nav_link,
+      "sidebar_menulist": sidebar_menulist,
+      "search_id": search_id,
+      "search_name": search_name,
+      "search_placeholder": search_placeholder,
+      "social_media": social_media,
       "heading": heading,
       "sidebar_list": sidebar_list
     } %}
-  </div>
 </header>

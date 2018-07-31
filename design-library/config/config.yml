@@ -73,6 +73,8 @@ plugins:
           - source/_patterns/02-molecules/04-social-media
           - source/_patterns/02-molecules/05-footer-image-list
           - source/_patterns/02-molecules/06-sidebar-list
+          - source/_patterns/02-molecules/07-sidebar
+          - source/_patterns/02-molecules/08-list-post
       organisms:
         paths:
           - source/_patterns/03-organisms/01-blog-list

@@ -1,0 +1,10 @@
+<div class="list-post">
+    
+    <div class="list-post-body">
+        {% include "@atoms/list-title.twig" with {"title": title}  %}
+        {% include "@molecules/blog-tags.twig" with {"tag_list": tag_list} %}
+        {% include "@atoms/list-posted-on.twig" %}
+        {% include "@atoms/list-body.twig" %}
+    </div>
+    
+</div>
