@@ -24,7 +24,7 @@ var sassOptions = {
 
 // Set up sass linting task
 'use strict';
-gulp.task('lint-sass', function() {
+gulp.task('lint-sass', gulp.series(function() {
     return gulp.src(sassFiles)
         .pipe(sassLint({
             rules: {
@@ -36,9 +36,9 @@ gulp.task('lint-sass', function() {
         }))
         .pipe(sassLint.format())
         .pipe(sassLint.failOnError())
-});
+}));
 
-gulp.task('sass', function() {
+gulp.task('sass', gulp.series(function() {
     return gulp.src(sassFiles)
     // Initialize sourcemaps
         //.pipe(sourcemaps.init())
@@ -65,28 +65,28 @@ gulp.task('sass', function() {
         .pipe(minify())
         // Write the resulting CSS in the output folder.
         .pipe(gulp.dest(cssDir));
-});
+}));
 
 // Start the pattern lab server and watch for changes
-gulp.task('patternlab', function () {
+gulp.task('patternlab', gulp.series(function () {
     return gulp.src('', {read: false})
         .pipe(shell([
             'php core/console --server --with-watch'
         ]));
-});
+}));
 
 // Start the pattern lab server and watch for changes
-gulp.task('export-patternlab', function () {
+gulp.task('export-patternlab', gulp.series(function () {
     return gulp.src('', {read: false})
         .pipe(shell([
             'php core/console --export'
         ]));
-});
+}));
 
 // Keep an eye on Sass files for changes and only lint changed files
 // This prevents Sass error reporting from contributes Sass files from other projects
 // Also speeds things up.
-gulp.task('watch', function() {
+gulp.task('watch', gulp.series(function() {
     gulp.watch(sassFiles, function(ev) {
         if (ev.type === 'added' || ev.type === 'changed') {
             lintFile(ev.path);
@@ -94,7 +94,7 @@ gulp.task('watch', function() {
     });
     // Compile sass changes
     gulp.watch(sassFiles, ['sass']);
-});
+}));
 
 function lintFile(file) {
     gulp.src(file)
@@ -102,4 +102,4 @@ function lintFile(file) {
         .pipe(sassLint.format());
 }
 
-gulp.task('default', ['export-patternlab', 'patternlab', 'sass', 'watch']);
+gulp.task('default', gulp.series(['export-patternlab', 'patternlab', 'sass', 'watch'], function(){}));
