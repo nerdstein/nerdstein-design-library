@@ -1,0 +1,13 @@
+.sidebar-menu {
+  display: block;
+
+  li {
+
+    margin-left: 0;
+
+    &:hover {
+
+      color: $link-color--hover;
+    }
+  }
+}

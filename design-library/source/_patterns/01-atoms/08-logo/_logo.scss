@@ -1,18 +1,20 @@
 .logo--wrapper {
-  display: block;
-  padding: 0;
+  @include shadow;
+  background: $key-background-color;
+  display: inline-block;
+  height: 5.5em;
   margin: 0;
-  width: 10em;
-  height: 10em;
-}
+  padding: 0.7em 1.5em;
+  width: 12em;
 
-.logo--link {
-  display: block;
-  padding: 0;
-  margin: 0;
-  width: inherit;
-  height: inherit;
-  background-size: contain;
-  background-repeat: no-repeat;
-  text-indent: -9999px;
+  .logo--link {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: block;
+    height: inherit;
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+    width: 9em;
+  }
 }

@@ -1,9 +1,13 @@
-h3.list-title {
+.list-title {
+
   font-size: 2em;
+
   a {
-    color: black;
+
+    color: $base-font-color;
+
     &:hover {
-      color: $link-color--hover;
+      color: $key-color-2--base;
     }
   }
 }

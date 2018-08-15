@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons / Sports</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons-/-Sports" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(2.000000, 2.000000)" stroke="#FFFFFF" stroke-width="2">
+            <path d="M0.000945144379,10.0009451 C0.0468512855,10.0003157 0.0928332158,10 0.138888889,10 C5.58503017,10 10,14.4149698 10,19.8611111 C10,19.9071668 9.99968427,19.9531487 9.99905486,19.9990549 C9.95314871,19.9996843 9.90716678,20 9.86111111,20 C4.41496983,20 0,15.5850302 0,10.1388889 C0,10.0928332 0.000315730255,10.0468513 0.00094514438,10.0009451 Z" id="Combined-Shape"></path>
+            <path d="M10.0009451,0.00094514438 C10.0468513,0.000315730255 10.0928332,0 10.1388889,0 C15.5850302,0 20,4.41496983 20,9.86111111 C20,9.90716678 19.9996843,9.95314871 19.9990549,9.99905486 C19.9531487,9.99968427 19.9071668,10 19.8611111,10 C14.4149698,10 10,5.58503017 10,0.138888889 C10,0.0928332158 10.0003157,0.0468512855 10.0009451,0.000945144379 Z" id="Combined-Shape"></path>
+            <circle id="Oval" cx="10" cy="10" r="10"></circle>
+        </g>
+    </g>
+</svg>

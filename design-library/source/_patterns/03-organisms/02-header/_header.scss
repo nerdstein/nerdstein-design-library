@@ -1,40 +1,37 @@
 #header {
-  background-color: #eee;
-  border: 0px solid #aaa;
-  padding: 1.5vw;
+  background-color: $key-color-blue--darker;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 1em;
-  grid-template-areas:
-      "a a a b b b";
-  grid-template-rows: 1fr;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  
+  color: #fff;
 
   > .grid-cell {
-    border: 0px solid #aaa;
-    padding: 0em;
-    display: flex;
-    align-items: center;
+  
+    color: $button-text-color;
+
   }
-}
 
-.logo--wrapper {
-  width: 23vw;
-  height: 10vw;
-}
+  .grid-cell--content {
+    
+    display: none;
 
-.grid-cell--logo {
-  grid-area: a;
-  justify-content: left;
-}
+    a {
 
-.grid-cell--social-icons {
-  grid-area: b;
-  justify-content: right;
-  .social_media--list {
-    margin-left: auto;
-    .social_media--item {
-      height: 5vw;
-      width: 5vw;
+      color: $button-text-color;
+    }
+
+    @include breakpoint($lg-up) {
+      display: block;
+    }
+  }
+
+  .grid-cell--menu {
+    display: block;
+
+    @include breakpoint($lg-up) {
+      display: none;
     }
   }
 }

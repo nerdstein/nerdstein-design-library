@@ -1,0 +1,20 @@
+{
+  "sidebar_menulist": {
+    "1": {
+      "content_title": "Tech",
+      "content_url": "http://nerdstein.net/tech"
+    },
+    "2": {
+      "content_title": "News",
+      "content_url": "http://nerdstein.net/news"
+    },
+    "3": {
+      "content_title": "Tutorials",
+      "content_url": "http://nerdstein.net/tutorials"
+    },
+    "4": {
+      "content_title": "Sports",
+      "content_url": "http://nerdstein.net/sports"
+    }
+  }
+}

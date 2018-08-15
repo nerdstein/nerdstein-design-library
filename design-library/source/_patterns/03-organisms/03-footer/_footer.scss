@@ -1,8 +1,8 @@
-#site-footer {
-  background-color: $dark-gray;
+.site-footer {
   border-top: 2px solid $key-color-1--base;
-  padding: 1.5vw;
-  color: $light-gray;
-  padding: 2em 3em;
-  font-size: 1.25em;
+  padding: 1em;
+}
+
+.footer-image-list {
+  margin-bottom: 2em;
 }

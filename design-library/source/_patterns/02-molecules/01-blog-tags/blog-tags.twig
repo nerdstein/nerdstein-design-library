@@ -1,5 +1,10 @@
 <div class="blog-tags">
-{% for key,value in tag_list %}
-    {% include "@atoms/blog-tag.twig" with {"tag_name": value.tag_name} %}
-{% endfor %}
+    {% for key,value in tag_list %}
+        {% include "@atoms/blog-tag.twig" with {
+          "tag_name": value.tag_name,
+          "tag_icon_url": value.tag_icon_url,
+          "tag_color": value.tag_color,
+          "tag_background": value.tag_background
+        } %}
+    {% endfor %}
 </div>

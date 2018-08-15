@@ -1,3 +1,112 @@
-.highlight-title {
-  @include button-profile;
+.highlight-tag {
+
+  @include tag-profile;
+  display: inline-block;
+  margin-bottom: 5px;
+  padding: .7em .6em .3em;
+
+  span {
+    vertical-align: text-bottom;
+  }
+
+  img {
+    display: inline-flex;
+    float: left;
+    height: 1.4em;
+    margin-right: .5em;
+    position: relative;
+    top: -.2em;
+    vertical-align: middle;
+    width: 1.4em;
+    fill: $key-color-green--base;
+  }
 }
+
+.highlight-tag--blue {
+  color: $key-color-blue--base;
+
+  &:hover {
+
+    color: $key-color-blue--lighter;
+    text-decoration: underline;
+  }
+  
+  img {
+    fill: $key-color-green--base;
+  }
+}
+
+.highlight-tag--green {
+  color: $key-color-green--base;
+
+  &:hover {
+  
+    color: $key-color-green--lighter;
+    text-decoration: underline;
+  }
+}
+
+.highlight-tag--purple {
+  color: $key-color-purple--base;
+
+  &:hover {
+
+    color: $key-color-purple--lighter;
+    text-decoration: underline;
+  }
+}
+
+.highlight-tag--orange {
+  color: $key-color-orange--base;
+
+  &:hover {
+
+    color: $key-color-orange--lighter;
+    text-decoration: underline;
+  }
+}
+
+.highlight-tag--bluebox {
+  color: $button-text-color;
+  background-color: $key-color-blue--base;
+
+  &:hover {
+
+    color: $button-text-color;
+    background-color: $key-color-blue--lighter;
+  }
+}
+
+.highlight-tag--greenbox {
+  color: $button-text-color;
+  background-color: $key-color-green--base;
+
+  &:hover {
+
+    color: $button-text-color;
+    background-color: $key-color-green--lighter;
+  }
+}
+
+.highlight-tag--purplebox {
+  color: $button-text-color;
+  background-color: $key-color-purple--base;
+
+  &:hover {
+
+    color: $button-text-color;
+    background-color: $key-color-purple--lighter;
+  }
+}
+
+.highlight-tag--orangebox {
+  color: $button-text-color;
+  background-color: $key-color-orange--base;
+
+  &:hover {
+
+    color: $button-text-color;
+    background-color: $key-color-orange--lighter;
+  }
+}
+

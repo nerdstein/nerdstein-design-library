@@ -42,11 +42,18 @@ plugins:
   twigNamespaces:
     enabled: true
     roots: { }
+      #- source/_patterns/00-global
       #- source/_patterns/01-atoms
       #- source/_patterns/02-molecules
       #- source/_patterns/03-organisms
       #- source/_patterns/04-pages
     namespaces:
+      global:
+        paths:
+          - source/_patterns/00-global/01-base-colors
+          - source/_patterns/00-global/02-tag-colors
+          - source/_patterns/00-global/03-fonts
+          - source/_patterns/00-global/04-input
       atoms:
         paths:
           - source/_patterns/01-atoms/01-list-title
@@ -54,22 +61,32 @@ plugins:
           - source/_patterns/01-atoms/03-list-image
           - source/_patterns/01-atoms/04-blog-tag
           - source/_patterns/01-atoms/05-list-posted-on
-          - source/_patterns/01-atoms/06-section-heading
-          - source/_patterns/01-atoms/07-section-content
+          - source/_patterns/01-atoms/06-sidebar-heading
+          - source/_patterns/01-atoms/07-sidebar-content
           - source/_patterns/01-atoms/08-logo
           - source/_patterns/01-atoms/09-social-icon
           - source/_patterns/01-atoms/10-footer-text
+          - source/_patterns/01-atoms/11-footer-image
+          - source/_patterns/01-atoms/12-sidebar-list-element
+          - source/_patterns/01-atoms/13-search
+          - source/_patterns/01-atoms/14-pager-tag
+          - source/_patterns/01-atoms/15-nav-icon
       molecules:
         paths:
           - source/_patterns/02-molecules/01-blog-tags
           - source/_patterns/02-molecules/02-list-element
-          - source/_patterns/02-molecules/03-section
-          - source/_patterns/02-molecules/04-social-icons
+          - source/_patterns/02-molecules/03-sidebar-menu
+          - source/_patterns/02-molecules/04-social-media
+          - source/_patterns/02-molecules/05-footer-image-list
+          - source/_patterns/02-molecules/06-sidebar-list
+          - source/_patterns/02-molecules/07-sidebar
+          - source/_patterns/02-molecules/08-list-post
       organisms:
         paths:
           - source/_patterns/03-organisms/01-blog-list
           - source/_patterns/03-organisms/02-header
           - source/_patterns/03-organisms/03-footer
-      #pages:
-        #paths:
-          #- source/_patterns/04-pages
+      pages:
+        paths:
+          - source/_patterns/04-pages/01-one-sidebar
+          - source/_patterns/04-pages/02-article

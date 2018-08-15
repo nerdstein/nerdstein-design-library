@@ -1,47 +1,42 @@
-
 #page-wrapper {
-  width: 100%;
-  padding: 0;
+  height: 100%;
   margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .section {
-  width: 100%;
+  margin: 0;
   padding: 0;
-  margin: 0 0 1em 0;
+  width: 100%;
 }
 
 #main-wrapper {
   display: grid;
+  grid-template-areas:
+  'a'
+  'b';
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  grid-gap: 1em;
-
-  grid-template-areas:
-      "a"
-      "b";
 
   @include breakpoint($md-up) {
-    grid-template-columns: repeat(8, 1fr);
     grid-template-areas:
-        "a a a a a b b b";
+    'a b';
+    grid-template-columns: 1fr;
   }
 
   @include breakpoint($lg-up) {
-    grid-template-columns: repeat(8, 1fr);
     grid-template-areas:
-        "a a a a a a b b";
-  }
-
-  .content {
-    grid-area: a;
+    'a a b b b b b b';
+    grid-template-columns: repeat(8, 1fr);
   }
 
   .sidebar {
-    grid-area: b;
+    grid-area: a;
   }
-}
 
-.section-footer {
-
+  .content {
+    grid-area: b;
+    margin: 2em;
+  }
 }

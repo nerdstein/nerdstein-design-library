@@ -1,6 +1,16 @@
-# Organism: Site Header
+---
+title: Header
+---
+Description
 
 *Depends on*
 
 * Atom: Logo
-* Molecule: Social Icons
+* Atom: Sidebar content
+* Atom: Search
+* Atom: Social Icon
+* Atom: Sidebar heading
+* Atom: Sidebar list element
+* Molecule: Sidebar Menu
+* Molecule: Social Media
+* Molecule: Sidebar List

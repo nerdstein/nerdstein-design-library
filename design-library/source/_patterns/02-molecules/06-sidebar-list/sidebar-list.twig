@@ -1,0 +1,11 @@
+<div class="sidebar-list">
+  {% include "@atoms/sidebar-heading.twig" with {"heading": heading} %}
+  <div class="post-list">
+    {% for key,value in sidebar_list %}
+        {% include "@atoms/sidebar-list-element.twig" with {
+          "element_name": value.element_name,
+          "element_url": value.element_url
+        } %}
+    {% endfor %}
+  </div>
+</div>

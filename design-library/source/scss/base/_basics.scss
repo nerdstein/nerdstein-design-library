@@ -4,9 +4,13 @@ html {
 
 body {
   @include font-profile--base;
-  overflow-x: hidden; /* Prevent scroll on narrow devices */
-  background-color: #fff;
   color: $base-font-color;
+  overflow-x: hidden; //* Prevent scroll on narrow devices *//
+}
+
+.caption {
+  color: $medium-gray;
+  font-size: 70%;
 }
 
 a {
@@ -15,7 +19,8 @@ a {
 
   &:hover {
     color: $link-color--hover;
-    text-decoration: underline;
+    opacity: .8;
+    text-decoration: none;
   }
 
   &:visited {
@@ -23,11 +28,14 @@ a {
   }
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   @include font-profile--heading;
-  padding: 0;
   line-height: 1.2;
-  margin: 0 0 .5em 0;
+  margin: .5em 0;
+  padding: 0;
 }
 
 h1 {
@@ -46,4 +54,49 @@ h4 {
   font-size: 1em;
 }
 
+// Form style
+label {
+  display: inline-block;
+  max-width: 100%;
+}
 
+@mixin form-profile-input {
+  background-color: $input-background-color;
+  border: 1px solid $light-gray;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: $dark-gray;
+  cursor: pointer;
+  display: block;
+  font-size: .8em;
+  margin: .8em 0;
+  padding: .4em .8em;
+  width: 100%;
+}
+
+input {
+  @include form-profile-input
+}
+
+.input-select {
+  @include form-profile-input
+  border-color: $medium-gray;
+  height: 1.6em;
+}
+
+textarea {
+  @include form-profile-input;
+  height: 100px;
+  padding-top: .6em;
+}
+
+.input-submit {
+  @include form-profile-input
+  background-color: $link-color;
+  border: 0;
+  color: $button-text-color;
+
+  &:hover {
+    background-color: $link-color--hover;
+  }
+}

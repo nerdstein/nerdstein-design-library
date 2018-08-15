@@ -1,0 +1,21 @@
+.grid-cell {
+  align-items: start;
+  color: inherit;
+  display: block;
+  margin: 2em auto;
+  max-width: 190px;
+
+  a {
+    color: inherit;
+
+  }
+
+}
+
+.grid-cell--menu {
+  margin: 1em auto;
+  text-align: right;
+  text-align: -webkit-right;
+  width: 100%;
+
+}

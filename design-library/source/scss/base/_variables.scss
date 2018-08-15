@@ -1,45 +1,81 @@
+$base-font-family: 'Arsenal', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif;
+$heading-font-family: 'Karma', serif;
+$fa-font-path: '../webfonts';
 
-$base-font-family: "PT Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-$heading-font-family: $base-font-family;
+$base-font-color: #333;
+$base-background-color: #f8f8f8;
+$key-background-color: #fff;
 
-$base-font-color: #4c4c4c;
+$key-shadow-color: 0 2px 4px rgba(0, 0, 0, 0.75);
 
-$key-color-1--base: #ed6300;
-$key-color-1--lighter: lighten($key-color-1--base, 30%);
-$key-color-1--darker: darken($key-color-1--base, 30%);
+$button-text-color: #fff;
+$input-background-color: #fff;
 
-$key-color-2--base: #0fa620;
+$key-color-1--base: #ffa200;
+$key-color-1--lighter: #ffc700;
+$key-color-1--darker: #e58d0c;
+
+$key-color-2--base: #18af72;
 $key-color-2--lighter: lighten($key-color-2--base, 30%);
 $key-color-2--darker: darken($key-color-2--base, 30%);
 
 $link-color: $key-color-1--base;
-$link-color--hover: $key-color-2--base;
+$link-color--hover: $key-color-1--lighter;
 
-$light-gray: #EDEDED;
-$medium-gray: rgb(150, 150, 150);
-$dark-gray: #1d1d1d;
+$key-color-blue--base: #0a509b;
+$key-color-blue--lighter: #2b66a9;
+$key-color-blue--darker: #04305f;
+
+$key-color-orange--base: #ed6300;
+$key-color-orange--lighter: #ffa05b;
+$key-color-orange--darker: #bd4e00;
+
+$key-color-purple--base: #b10283;
+$key-color-purple--lighter: #c948a9;
+$key-color-purple--darker: #6c0151;
+
+$key-color-green--base: #008e8e;
+$key-color-green--lighter: #3eacac;
+$key-color-green--darker: #005757;
+
+$light-gray: #d1d1d1;
+$medium-gray: #969696;
+$dark-gray: #4a4a4a;
 
 @mixin font-profile--base {
   font-family: $base-font-family;
   font-size: 1em;
-  line-height: 1.5;
   font-weight: normal;
+  line-height: 1.5;
+  padding: .5em;
 }
 
 @mixin font-profile--heading {
   font-family: $heading-font-family;
-  line-height: 1.3;
   font-weight: bold;
+  line-height: 1.3;
 }
 
 @mixin button-profile {
   @include font-profile--heading;
+  background-color: $link-color;
+  color: $button-text-color;
   display: inline-block;
   line-height: 1;
-  color: #fff;
-  background-color: $link-color;
   padding: .5em .75em;
+
   &:hover {
     background-color: $link-color--hover;
   }
+}
+@mixin tag-profile {
+  @include font-profile--heading;
+  color: $link-color;
+  display: inline-block;
+  line-height: 1;
+  padding: .5em .75em;
+
+}
+@mixin shadow {
+  box-shadow: $key-shadow-color;
 }

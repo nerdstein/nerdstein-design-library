@@ -1,3 +1,6 @@
 {
-  "tag_name": "CATEGORY 1"
+  "tag_name": "Category 1",
+  "tag_icon_url": "/images/svg/drupal-2.svg",
+  "tag_color": "highlight-tag--blue",
+  "tag_link_url": "http://nerdstein.net"
 }

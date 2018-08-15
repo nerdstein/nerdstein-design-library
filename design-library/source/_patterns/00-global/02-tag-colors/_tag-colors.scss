@@ -1,0 +1,50 @@
+.sg-swatch {
+
+  &.-blue {
+    background-color: $key-color-blue--base;
+  }
+
+  &.-lightblue {
+    background-color: $key-color-blue--lighter;
+  }
+
+  &.-darkblue {
+    background-color: $key-color-blue--darker;
+  }
+
+  &.-green {
+    background-color: $key-color-green--base;
+  }
+
+  &.-lightgreen {
+    background-color: $key-color-green--lighter;
+  }
+  
+  &.-darkgreen {
+    background-color: $key-color-green--darker;
+  }
+
+  &.-purple {
+    background-color: $key-color-purple--base;
+  }
+
+  &.-lightpurple {
+    background-color: $key-color-purple--lighter;
+  }
+
+  &.-darkpurple {
+    background-color: $key-color-purple--darker;
+  }
+
+  &.-orange {
+    background-color: $key-color-orange--base;
+  }
+
+  &.-lightorange {
+    background-color: $key-color-orange--lighter;
+  }
+
+  &.-darkorange {
+    background-color: $key-color-orange--darker;
+  }
+}

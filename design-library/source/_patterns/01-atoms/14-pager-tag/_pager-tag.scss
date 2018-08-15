@@ -1,0 +1,23 @@
+.highlight-title {
+
+  @include tag-profile;
+  padding: .7em .6em .3em;
+  margin-bottom: 5px;
+  display: inline-block;
+
+  span {
+    vertical-align: middle;
+  }
+
+  img {
+    display: inline-flex;
+    float: left;
+    height: 1.4em;
+    margin-right: .5em;
+    position: relative;
+    top: -.2em;
+    vertical-align: middle;
+    width: 1.4em;
+  }
+  
+}

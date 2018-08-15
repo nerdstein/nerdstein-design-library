@@ -1,0 +1,11 @@
+.nav-icon {
+
+  a {
+
+    @extend %fas;
+    @include fa-icon;
+    display: block;
+    height: 1em;
+    width: 4em;
+  }
+}

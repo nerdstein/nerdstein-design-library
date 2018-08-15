@@ -1,0 +1,10 @@
+<ul class="social-media--list">
+  {% for social_media__item in social_media %}
+    {% include "@atoms/social-icon.twig" with {
+      "name":social_media__item.name,
+      "message":social_media__item.message,
+      "image":social_media__item.image,
+      "link":social_media__item.link
+    } %}
+  {% endfor %}
+</ul>

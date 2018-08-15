@@ -1,5 +1,5 @@
 <div class="list-element">
-    {% include "@molecules/blog-tags.twig" with {"tag_list": tag_list} %}
+    
     <div class="list-element-body">
         {% if image_url %}
         <div class="list-element-image">
@@ -9,5 +9,7 @@
         {% include "@atoms/list-title.twig" with {"title": title}  %}
         {% include "@atoms/list-posted-on.twig" %}
         {% include "@atoms/list-body.twig" %}
+        {% include "@molecules/blog-tags.twig" with {"tag_list": tag_list} %}
     </div>
+    
 </div>

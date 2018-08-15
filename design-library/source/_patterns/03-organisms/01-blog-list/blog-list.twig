@@ -1,3 +1,8 @@
+<div class="blog-tag-menu">
+    {% include "@molecules/blog-tags.twig" with {
+      "tag_list": tag_list_menu
+    } %}
+</div>
 <div class="blog-list">
     {% for key,value in blog_list %}
         {% include "@molecules/list-element.twig" with {

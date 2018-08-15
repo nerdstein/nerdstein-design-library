@@ -1,0 +1,28 @@
+{
+  "tag_list": {
+    "1":{
+      "tag_name": "Back-end",
+      "tag_icon_url": "/images/svg/back-end.svg",
+      "tag_color": "highlight-tag--greenbox",
+      "tag_link_url": "http://nerdstein.net"
+    },
+    "2":{
+      "tag_name": "Drupal",
+      "tag_icon_url": "/images/svg/drupal.svg",
+      "tag_color": "highlight-tag--bluebox",
+      "tag_link_url": "http://nerdstein.net"
+    },
+    "3":{
+      "tag_name": "Development",
+      "tag_icon_url": "/images/svg/development.svg",
+      "tag_color": "highlight-tag--purplebox",
+      "tag_link_url": "http://nerdstein.net"
+    },
+    "4":{
+      "tag_name": "Front-end",
+      "tag_icon_url": "/images/svg/front-end.svg",
+      "tag_color": "highlight-tag--orangebox",
+      "tag_link_url": "http://nerdstein.net"
+    }
+  }
+}

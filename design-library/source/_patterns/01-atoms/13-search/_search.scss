@@ -1,0 +1,19 @@
+.search {
+
+  input {
+  padding: .8em;
+  }
+
+  &::after {
+    background: url('/images/svg/search.svg') no-repeat;
+    content: '';
+    display: inline-block;
+    position: relative;
+    float: right;
+    height: 20px;
+    margin: 0;
+    width: 20px;
+    top: -2.5em;
+    right: 1em;
+  }
+}

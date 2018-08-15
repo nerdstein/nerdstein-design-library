@@ -1,0 +1,35 @@
+<div id="page-wrapper">
+  <div id="main-wrapper">
+    <div class="sidebar">
+      {% include "@organisms/header.twig" with {
+      "image_url": image_url,
+      "image_alt": image_alt,
+      "image_link": image_link, 
+      "nav_icon": nav_icon,
+      "nav_message": nav_message,
+      "nav_link": nav_link,
+      "sidebar_menulist": sidebar_menulist,
+      "search_id": search_id,
+      "search_name": search_name,
+      "search_placeholder": search_placeholder,
+      "social_media": social_media,
+      "heading": heading,
+      "sidebar_list": sidebar_list
+      } %}
+    </div>
+    <div class="content">
+      <div class="section">
+        {% include "@molecules/list-post.twig" with {
+        "title": title,
+        "tag_list": tag_list
+        } %}
+      </div>
+      <footer class="section section-footer">
+        {% include "@organisms/footer.twig" with {
+        "content": footer_text,
+        "footer_images": footer_images
+        } %}
+      </footer>
+    </div>
+  </div>
+</div>
