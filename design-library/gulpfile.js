@@ -24,7 +24,7 @@ var sassOptions = {
 
 // Set up sass linting task
 'use strict';
-gulp.task('lint-sass', gulp.series(function() {
+gulp.task('lint-sass', gulp.series(function () {
     return gulp.src(sassFiles)
         .pipe(sassLint({
             rules: {
@@ -38,7 +38,7 @@ gulp.task('lint-sass', gulp.series(function() {
         .pipe(sassLint.failOnError())
 }));
 
-gulp.task('sass', gulp.series(function() {
+gulp.task('sass', gulp.series(function () {
     return gulp.src(sassFiles)
     // Initialize sourcemaps
         //.pipe(sourcemaps.init())
@@ -68,25 +68,15 @@ gulp.task('sass', gulp.series(function() {
 }));
 
 // Start the pattern lab server and watch for changes
-gulp.task('patternlab', gulp.series(function () {
-    return gulp.src('', {read: false})
-        .pipe(shell([
-            'php core/console --server --with-watch'
-        ]));
-}));
+gulp.task('patternlab', shell.task('php core/console --server --with-watch'));
 
-// Start the pattern lab server and watch for changes
-gulp.task('export-patternlab', gulp.series(function () {
-    return gulp.src('', {read: false})
-        .pipe(shell([
-            'php core/console --export'
-        ]));
-}));
+// Export patternlab changes
+gulp.task('export-patternlab', shell.task('php core/console --export'));
 
 // Keep an eye on Sass files for changes and only lint changed files
 // This prevents Sass error reporting from contributes Sass files from other projects
 // Also speeds things up.
-gulp.task('watch', gulp.series(function() {
+gulp.task('watch', gulp.series(function () {
     gulp.watch(sassFiles, function(ev) {
         if (ev.type === 'added' || ev.type === 'changed') {
             lintFile(ev.path);
@@ -102,4 +92,4 @@ function lintFile(file) {
         .pipe(sassLint.format());
 }
 
-gulp.task('default', gulp.series(['export-patternlab', 'patternlab', 'sass', 'watch'], function(){}));
+gulp.task('default', gulp.series(['export-patternlab', 'patternlab', 'sass', 'watch'], function (){}));
