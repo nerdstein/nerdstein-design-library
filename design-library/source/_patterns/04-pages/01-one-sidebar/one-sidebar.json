@@ -65,55 +65,55 @@
   "tag_list_menu":{
     "1": {
       "tag_name": "Back-end",
-      "tag_icon_url": "/images/svg/back-end.svg",
+      "tag_icon_url": "../../images/svg/back-end.svg",
       "tag_color": "highlight-tag--greenbox",
       "tag_link_url": "http://nerdstein.net"
     },
     "2": {
       "tag_name": "Drupal",
-      "tag_icon_url": "/images/svg/drupal.svg",
+      "tag_icon_url": "../../images/svg/drupal.svg",
       "tag_color": "highlight-tag--bluebox",
       "tag_link_url": "http://nerdstein.net"
     },
     "3": {
       "tag_name": "Dev-ops",
-      "tag_icon_url": "/images/svg/development.svg",
+      "tag_icon_url": "../../images/svg/development.svg",
       "tag_color": "highlight-tag--purplebox",
       "tag_link_url": "http://nerdstein.net"
     },
     "4": {
       "tag_name": "Front-end",
-      "tag_icon_url": "/images/svg/front-end.svg",
+      "tag_icon_url": "../../images/svg/front-end.svg",
       "tag_color": "highlight-tag--orangebox",
       "tag_link_url": "http://nerdstein.net"
     },
     "5": {
       "tag_name": "People",
-      "tag_icon_url": "/images/svg/people.svg",
+      "tag_icon_url": "../../images/svg/people.svg",
       "tag_color": "highlight-tag--greenbox",
       "tag_link_url": "http://nerdstein.net"
     },
     "6": {
       "tag_name": "Politics",
-      "tag_icon_url": "/images/svg/sports.svg",
+      "tag_icon_url": "../../images/svg/sports.svg",
       "tag_color": "highlight-tag--purplebox",
       "tag_link_url": "http://nerdstein.net"
     },
     "7": {
       "tag_name": "Security",
-      "tag_icon_url": "/images/svg/security.svg",
+      "tag_icon_url": "../../images/svg/security.svg",
       "tag_color": "highlight-tag--bluebox",
       "tag_link_url": "http://nerdstein.net"
     },
     "8": {
       "tag_name": "Sports",
-      "tag_icon_url": "/images/svg/sports.svg",
+      "tag_icon_url": "../../images/svg/sports.svg",
       "tag_color": "highlight-tag--greenbox",
       "tag_link_url": "http://nerdstein.net"
     },
     "9": {
       "tag_name": "Tutorials",
-      "tag_icon_url": "/images/svg/tutorials.svg",
+      "tag_icon_url": "../../images/svg/tutorials.svg",
       "tag_color": "highlight-tag--orangebox",
       "tag_link_url": "http://nerdstein.net"
     }
@@ -126,13 +126,13 @@
       "tag_list": {
         "1": {
           "tag_name": "Cloud",
-          "tag_icon_url": "/images/svg/front-end-2.svg",
+          "tag_icon_url": "../../images/svg/front-end-2.svg",
           "tag_color": "highlight-tag--orange",
           "tag_link_url": "http://nerdstein.net"
         },
         "2": {
           "tag_name": "Drupal",
-          "tag_icon_url": "/images/svg/drupal-2.svg",
+          "tag_icon_url": "../../images/svg/drupal-2.svg",
           "tag_color": "highlight-tag--blue",
           "tag_link_url": "http://nerdstein.net"
         }
@@ -146,18 +146,18 @@
       "tag_list": {
         "1": {
           "tag_name": "Security",
-          "tag_icon_url": "/images/svg/security-2.svg",
+          "tag_icon_url": "../../images/svg/security-2.svg",
           "tag_color": "highlight-tag--blue",
           "tag_link_url": "http://nerdstein.net"
         },
         "2": {
           "tag_name": "DevOps",
-          "tag_icon_url": "/images/svg/development-2.svg",
+          "tag_icon_url": "../../images/svg/development-2.svg",
           "tag_color": "highlight-tag--purple",
           "tag_link_url": "http://nerdstein.net"
         }
       },
-      "image_url": "/images/dog-cello.jpg",
+      "image_url": "../../images/dog-cello.jpg",
       "posted_date": "March 19, 2017"
     },
     "3": {
@@ -167,13 +167,13 @@
       "tag_list": {
         "1": {
           "tag_name": "Responsive",
-          "tag_icon_url": "/images/svg/back-end-2.svg",
+          "tag_icon_url": "../../images/svg/back-end-2.svg",
           "tag_color": "highlight-tag--green",
           "tag_link_url": "http://nerdstein.net"
         },
         "2": {
           "tag_name": "Agile",
-          "tag_icon_url": "/images/svg/drupal-2.svg",
+          "tag_icon_url": "../../images/svg/drupal-2.svg",
           "tag_color": "highlight-tag--blue",
           "tag_link_url": "http://nerdstein.net"
         }
@@ -184,17 +184,17 @@
    "footer_text": "© Copyright 2013-2018 by Nerdstein. All Rights Reserved.",
    "footer_images": [
     {
-	    "image_url":"/images/drupal-assoc.png",
+	    "image_url":"../../images/drupal-assoc.png",
         "link": "https://www.drupal.org",
         "message":"Drupal Association"
     },
     {
-	    "image_url":"/images/simple-test.png",
+	    "image_url":"../../images/simple-test.png",
         "link": "https://www.simplytest.me",
         "message":"SimplyTest.me"
     },
     {
-	    "image_url":"/images/drupal-coffee.png",
+	    "image_url":"../../images/drupal-coffee.png",
         "link": "/",
         "message":"Drupal Coffee"
     }

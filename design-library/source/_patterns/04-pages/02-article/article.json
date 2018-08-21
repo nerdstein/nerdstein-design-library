@@ -68,13 +68,13 @@
   "tag_list": [
     {
           "tag_name": "Cloud",
-          "tag_icon_url": "/images/svg/front-end-2.svg",
+          "tag_icon_url": "../../images/svg/front-end-2.svg",
           "tag_color": "highlight-tag--orange",
           "tag_link_url": "http://nerdstein.net"
         },
     {
           "tag_name": "Drupal",
-          "tag_icon_url": "/images/svg/drupal-2.svg",
+          "tag_icon_url": "../../images/svg/drupal-2.svg",
           "tag_color": "highlight-tag--blue",
           "tag_link_url": "http://nerdstein.net"
         }
@@ -83,17 +83,17 @@
   "footer_text": "© Copyright 2013-2018 by Nerdstein. All Rights Reserved.",
   "footer_images": [
     {
-	    "image_url":"/images/drupal-assoc.png",
+	    "image_url":"../../images/drupal-assoc.png",
         "link": "https://www.drupal.org",
         "message":"Drupal Association"
     },
     {
-	    "image_url":"/images/simple-test.png",
+	    "image_url":"../../images/simple-test.png",
         "link": "https://www.simplytest.me",
         "message":"SimplyTest.me"
     },
     {
-	    "image_url":"/images/drupal-coffee.png",
+	    "image_url":"../../images/drupal-coffee.png",
         "link": "/",
         "message":"Drupal Coffee"
     }
