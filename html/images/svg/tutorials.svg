@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons / Tutorials</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons-/-Tutorials" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3-Copy" transform="translate(2.000000, 3.000000)" stroke="#FFFFFF" stroke-width="2">
+            <path d="M10.0052504,18.4947496 L9.5,18.0817553 L9.5,18 L10.1586336,18 C10.188554,18.0848079 10.2166433,18.1705385 10.2428515,18.2571485 L10.0052504,18.4947496 Z M9.5,16.6809158 L9.5,5 C9.5,2.790861 7.709139,1 5.5,1 L1,1 L1,14 L4.5,14 C6.56698799,14 8.41730405,15.0527997 9.5,16.6809158 Z" id="Combined-Shape"></path>
+            <path d="M19,14 L19,1 L14.5,1 C12.290861,1 10.5,2.790861 10.5,5 L10.5,16.6809158 C11.582696,15.0527997 13.433012,14 15.5,14 L19,14 Z M10.5,18 L10.5,18.0817553 L9.99474958,18.4947496 L9.75714852,18.2571485 C9.78335666,18.1705385 9.81144601,18.0848079 9.84136644,18 L10.5,18 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

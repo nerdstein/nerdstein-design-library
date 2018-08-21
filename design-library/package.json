@@ -32,6 +32,7 @@
     "typey": "^1.1.1"
   },
   "dependencies": {
-    "gulp": "^4.0.0"
+    "gulp": "^4.0.0",
+    "gulp-update": "0.0.2"
   }
 }
