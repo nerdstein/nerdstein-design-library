@@ -6,20 +6,19 @@
     "1": {
       "tag_name": "Cloud",
       "tag_icon_url": "/images/svg/politics-2.svg",
-      "tag_color": "#b10283",
-      "tag_background": "#fff",
+      "tag_color": "highlight-tag--purple",
       "tag_link_url": "http://nerdstein.net"
     },
     "2": {
       "tag_name": "Drupal",
       "tag_icon_url": "/images/svg/drupal-2.svg",
-      "tag_color": "#0a509b",
+      "tag_color": "highlight-tag--blue",
       "tag_link_url": "http://nerdstein.net"
     },
     "3": {
       "tag_name": "Cats",
       "tag_icon_url": "/images/svg/sports-2.svg",
-      "tag_color": "#008e8e",
+      "tag_color": "highlight-tag--green",
       "tag_link_url": "http://nerdstein.net"
     }
   },
