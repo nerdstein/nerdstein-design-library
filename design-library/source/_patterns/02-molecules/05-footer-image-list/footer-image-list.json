@@ -1,17 +1,17 @@
 {
   "footer_images": [
     {
-	    "image_url":"/images/drupal-assoc.png",
+	    "image_url":"../../images/drupal-assoc.png",
         "link": "https://www.drupal.org",
         "message":"Drupal Association"
     },
     {
-	    "image_url":"/images/simple-test.png",
+	    "image_url":"../../images/simple-test.png",
         "link": "https://www.simplytest.me",
         "message":"SimplyTest.me"
     },
     {
-	    "image_url":"/images/drupal-coffee.png",
+	    "image_url":"../../images/drupal-coffee.png",
         "link": "/",
         "message":"Drupal Coffee"
     }
