@@ -8,11 +8,11 @@ There are two main parts of this code repository.
 * [Prototype](prototype) - Static HTML provided by a designer with the new look-and-feel of the site
 * [Design Library](design-library) - A Pattern Lab with atoms, molecules, organisms, and pages.
 
-The prototype is represented in [HTML](http://htmlpreview.github.io/?https://raw.githubusercontent.com/nerdstein/nerdstein-design-library/master/prototype/index.html) and the current progress of the design library pages are also represented as [HTML](http://htmlpreview.github.io/?https://raw.githubusercontent.com/nerdstein/nerdstein-design-library/master/html/patterns/04-pages-01-one-sidebar-one-sidebar/04-pages-01-one-sidebar-one-sidebar.html).
+There previously was a prototype that has been deprecated in favor of this Pattern Lab design library. The current progress of the design library pages are also represented as [HTML](http://htmlpreview.github.io/?https://raw.githubusercontent.com/nerdstein/nerdstein-design-library/master/html/patterns/04-pages-01-one-sidebar-one-sidebar/04-pages-01-one-sidebar-one-sidebar.html).
 
 ## Architecture
 
-The prototype is nothing more than a quick visual of design elements on pages.
+The prototype was intended to be nothing more than a quick visual of design elements on pages.
 
 The design library is intended to split up the prototype into discrete, reusable parts. The library 
 is based on Pattern Lab leveraging the Twig convention, which aligns with Drupal 8. 
