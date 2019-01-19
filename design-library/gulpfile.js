@@ -12,7 +12,9 @@ var sassGlob = require('gulp-sass-glob');
 // Directories for storing sass and css files
 // var sassFiles = ['source/_patterns/**/*.scss','source/scss/scss.scss'];
 var sassFiles = ['source/**/*.scss'];
-
+var patternFiles = [
+    'source/**/*.twig',
+];
 var cssDir    = 'source/css';
 var jsDir     = 'source/js/*.js';
 
@@ -23,7 +25,6 @@ var sassOptions = {
 };
 
 // Set up sass linting task
-'use strict';
 gulp.task('lint-sass', gulp.series(function () {
     return gulp.src(sassFiles)
         .pipe(sassLint({
@@ -35,15 +36,14 @@ gulp.task('lint-sass', gulp.series(function () {
             }
         }))
         .pipe(sassLint.format())
-        .pipe(sassLint.failOnError())
+        .pipe(sassLint.failOnError());
 }));
 
 gulp.task('sass', gulp.series(function () {
-    return gulp.src(sassFiles)
-    // Initialize sourcemaps
+
+  return gulp.src(sassFiles)
         //.pipe(sourcemaps.init())
         .pipe(sassGlob())
-        // Run Sass
         .pipe(sass({
             outputStyle: 'compressed',
             // This includes paths for susy, typey and breakpoint. So we can add import their variables
@@ -54,21 +54,18 @@ gulp.task('sass', gulp.series(function () {
                 'node_modules/typey/stylesheets'
             ]
         }).on('error', sass.logError))
-        // Run autoprefixer.
         .pipe(prefix({
             browsers: ['last 2 versions'],
             cascade: false
         }))
-        // Write sourcemaps.
         //.pipe(sourcemaps.write())
         .pipe(concat('style.css'))
-        .pipe(minify())
-        // Write the resulting CSS in the output folder.
+        //.pipe(minify())
         .pipe(gulp.dest(cssDir));
 }));
 
 // Start the pattern lab server and watch for changes
-gulp.task('patternlab', shell.task('php core/console --server --with-watch'));
+gulp.task('patternlab', shell.task('php core/console --generate'));
 
 // Export patternlab changes
 gulp.task('export-patternlab', shell.task('php core/console --export'));
@@ -76,15 +73,14 @@ gulp.task('export-patternlab', shell.task('php core/console --export'));
 // Keep an eye on Sass files for changes and only lint changed files
 // This prevents Sass error reporting from contributes Sass files from other projects
 // Also speeds things up.
-gulp.task('watch', gulp.series(function () {
-    gulp.watch(sassFiles, function(ev) {
-        if (ev.type === 'added' || ev.type === 'changed') {
-            lintFile(ev.path);
-        }
-    });
-    // Compile sass changes
-    gulp.watch(sassFiles, ['sass']);
-}));
+gulp.task('watch', function () {
+  // gulp.watch(sassFiles, function(ev) {
+  //     if (ev.type === 'added' || ev.type === 'changed') {
+  //         lintFile(ev.path);
+  //     }
+  // });
+    gulp.watch(sassFiles.concat(patternFiles), gulp.series('sass','patternlab', 'export-patternlab'));
+});
 
 function lintFile(file) {
     gulp.src(file)

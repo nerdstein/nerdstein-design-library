@@ -1,11 +1,16 @@
+
 html {
   font-size: 16px;
+  padding: 0;
+  margin: 0;
 }
 
 body {
   @include font-profile--base;
   color: $base-font-color;
   overflow-x: hidden; //* Prevent scroll on narrow devices *//
+  padding: 0;
+  margin: 0;
 }
 
 .caption {
@@ -39,15 +44,15 @@ h4 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.3em;
 }
 
 h2 {
-  font-size: 1.67em;
+  font-size: 1.2em;
 }
 
 h3 {
-  font-size: 1.33em;
+  font-size: 1.1em;
 }
 
 h4 {
@@ -79,7 +84,7 @@ input {
 }
 
 .input-select {
-  @include form-profile-input
+  @include form-profile-input;
   border-color: $medium-gray;
   height: 1.6em;
 }
@@ -91,7 +96,7 @@ textarea {
 }
 
 .input-submit {
-  @include form-profile-input
+  @include form-profile-input;
   background-color: $link-color;
   border: 0;
   color: $button-text-color;

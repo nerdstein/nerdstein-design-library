@@ -3,6 +3,7 @@ $heading-font-family: 'Karma', serif;
 $fa-font-path: '../webfonts';
 
 $base-font-color: #333;
+$base-font-size: 16px;
 $base-background-color: #f8f8f8;
 $key-background-color: #fff;
 
@@ -44,7 +45,7 @@ $dark-gray: #4a4a4a;
 
 @mixin font-profile--base {
   font-family: $base-font-family;
-  font-size: 1em;
+  font-size: $base-font-size;
   font-weight: normal;
   line-height: 1.5;
   padding: .5em;

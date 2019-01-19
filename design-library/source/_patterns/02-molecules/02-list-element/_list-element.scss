@@ -4,12 +4,15 @@
 
   .list-element-body {
     display: block;
+
     .list-element-image {
-      float: left;
-      clear: left;
       margin: 1em;
-      margin-left: 0px;
-      margin-top: 0px;
+    }
+
+    .list-element-content {}
+
+    @include breakpoint($lg-up) {
+      display: flex;
     }
 
     &:after {

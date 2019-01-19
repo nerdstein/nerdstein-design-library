@@ -1,3 +1,10 @@
+.sidebar {
+
+  @include breakpoint($md-up) {
+    min-height: 100vh;
+  }
+}
+
 .grid-cell {
   align-items: start;
   color: inherit;
@@ -11,10 +18,3 @@
 
 }
 
-.grid-cell--menu {
-  margin: 1em auto;
-  text-align: right;
-  text-align: -webkit-right;
-  width: 100%;
-
-}

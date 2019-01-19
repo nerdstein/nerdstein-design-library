@@ -14,8 +14,11 @@
   }
 
   .grid-cell--content {
-    
     display: none;
+
+    &.show-on-mobile {
+      display: block;
+    }
 
     a {
 
@@ -27,8 +30,20 @@
     }
   }
 
+  // Menu button
   .grid-cell--menu {
     display: block;
+    margin: 1em auto;
+    width: 100%;
+
+    .nav-icon {
+      display: block;
+      text-align: center;
+
+      a {
+        width: 100%;
+      }
+    }
 
     @include breakpoint($lg-up) {
       display: none;
