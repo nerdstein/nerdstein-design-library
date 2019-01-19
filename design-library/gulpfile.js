@@ -12,7 +12,9 @@ var sassGlob = require('gulp-sass-glob');
 // Directories for storing sass and css files
 // var sassFiles = ['source/_patterns/**/*.scss','source/scss/scss.scss'];
 var sassFiles = ['source/**/*.scss'];
-
+var patternFiles = [
+    'source/**/*.twig',
+];
 var cssDir    = 'source/css';
 var jsDir     = 'source/js/*.js';
 
@@ -38,7 +40,8 @@ gulp.task('lint-sass', gulp.series(function () {
 }));
 
 gulp.task('sass', gulp.series(function () {
-    return gulp.src(sassFiles)
+
+  return gulp.src(sassFiles)
         //.pipe(sourcemaps.init())
         .pipe(sassGlob())
         .pipe(sass({
@@ -57,12 +60,12 @@ gulp.task('sass', gulp.series(function () {
         }))
         //.pipe(sourcemaps.write())
         .pipe(concat('style.css'))
-        .pipe(minify())
+        //.pipe(minify())
         .pipe(gulp.dest(cssDir));
 }));
 
 // Start the pattern lab server and watch for changes
-gulp.task('patternlab', shell.task('php core/console --server --with-watch'));
+gulp.task('patternlab', shell.task('php core/console --generate'));
 
 // Export patternlab changes
 gulp.task('export-patternlab', shell.task('php core/console --export'));
@@ -71,14 +74,12 @@ gulp.task('export-patternlab', shell.task('php core/console --export'));
 // This prevents Sass error reporting from contributes Sass files from other projects
 // Also speeds things up.
 gulp.task('watch', function () {
-    // gulp.watch(sassFiles, function(ev) {
-    //     if (ev.type === 'added' || ev.type === 'changed') {
-    //         lintFile(ev.path);
-    //     }
-    // });
-
-    // Compile sass changes
-    return gulp.watch(sassFiles, gulp.series('sass'));
+  // gulp.watch(sassFiles, function(ev) {
+  //     if (ev.type === 'added' || ev.type === 'changed') {
+  //         lintFile(ev.path);
+  //     }
+  // });
+    gulp.watch(sassFiles.concat(patternFiles), gulp.series('sass','patternlab', 'export-patternlab'));
 });
 
 function lintFile(file) {

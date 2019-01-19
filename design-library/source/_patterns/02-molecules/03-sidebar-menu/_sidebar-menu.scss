@@ -1,13 +1,27 @@
 .sidebar-menu {
   display: block;
+  padding: 0;
+
+  @include breakpoint($md-up) {
+    padding-left: 20px;
+  }
 
   li {
-
     margin-left: 0;
+    // mobile
+    list-style: none;
+    font-size: 30px;
+    text-align: center;
 
     &:hover {
 
       color: $link-color--hover;
+    }
+
+    @include breakpoint($md-up) {
+      list-style: disc;
+      text-align: left;
+      font-size: $base-font-size;
     }
   }
 }
