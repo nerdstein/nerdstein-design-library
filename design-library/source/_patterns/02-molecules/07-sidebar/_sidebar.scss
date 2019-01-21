@@ -3,6 +3,16 @@
   @include breakpoint($md-up) {
     min-height: 100vh;
   }
+
+  input[type="search"] {
+    box-sizing: border-box;
+  }
+
+  .form-type-search {
+    .form-actions {
+      display: none;
+    }
+  }
 }
 
 .grid-cell {
